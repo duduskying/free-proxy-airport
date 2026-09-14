@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-09-14T17:38:02.370081+00:00'
+generated-at: '2026-09-14T21:26:31.544424+00:00'
 proxies:
 - name: 🇯🇵 日本 | JPN 5
   server: hyfnjp03.459292.xyz
@@ -101,35 +101,19 @@ proxies:
     headers:
       Host: xi.tbv.ccwu.cc
   udp: true
-- name: 🇸🇬 新加坡 | SGP 2
-  server: sg-edge.xn--kivt58h.lol
-  port: 443
-  type: vmess
-  uuid: 4e365b37-c94d-4a7c-8008-9375b24cccf5
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: sg-edge.xn--kivt58h.lol
-  network: ws
-  ws-opts:
-    path: /sg-edge-vm-859c3a8d7341c647
-    headers:
-      Host: sg-edge.xn--kivt58h.lol
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 9
-  server: 8.35.211.236
-  port: 443
+- name: 🇸🇬 新加坡 | SGP 8
+  server: 217.60.7.121
+  port: 2053
   type: vless
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
   tls: true
-  servername: kkkk-bq7.pages.dev
-  client-fingerprint: chrome
+  servername: singapore.36109178.xyz
+  client-fingerprint: edge
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /static/media/video-chunk.f4v
     headers:
-      Host: kkkk-bq7.pages.dev
+      Host: singapore.36109178.xyz
   udp: true
 - name: 🇸🇬 新加坡 | SGP 4
   server: 162.159.43.187
@@ -180,6 +164,14 @@ proxies:
     path: /proxyip=us.xiabibi.cf
     headers:
       Host: xi.tbv.ccwu.cc
+- name: 🇺🇸 美国 | USA 4
+  server: us04.459292.xyz
+  port: 20001
+  type: hysteria2
+  password: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
+  auth: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
+  sni: localhost
+  skip-cert-verify: true
 - name: 🇺🇸 美国 | USA 3
   server: fi1.zuoai.cf
   port: 443
@@ -192,14 +184,6 @@ proxies:
     path: /proxyip=us.xiabibi.cf
     headers:
       Host: xi.tbv.ccwu.cc
-- name: 🇺🇸 美国 | USA 4
-  server: us04.459292.xyz
-  port: 20001
-  type: hysteria2
-  password: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
-  auth: 9b5ebb1c-5221-4381-850e-0b5eaac603e2
-  sni: localhost
-  skip-cert-verify: true
 - name: 🇺🇸 美国 | USA 5
   server: us10.zuoai.cf
   port: 443
@@ -241,6 +225,15 @@ proxies:
     headers:
       Host: xi.tbv.ccwu.cc
   udp: true
+- name: 🇺🇸 美国 | USA 10
+  server: starlink-ft.251313.xyz
+  port: 443
+  type: hysteria2
+  password: https://xship.best
+  auth: https://xship.best
+  sni: xship.top
+  skip-cert-verify: true
+  udp: true
 - name: 🇺🇸 美国 | USA 13
   server: nl4.zuoai.cf
   port: 443
@@ -266,6 +259,18 @@ proxies:
     path: /proxyip=us.xiabibi.cf
     headers:
       Host: xi.tbv.ccwu.cc
+  udp: true
+- name: 🇺🇸US美国丨yoyapai.com
+  type: trojan
+  server: 216.24.57.7
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  alpn:
+  - http/1.1
+  skip-cert-verify: false
+  ws-opts:
+    path: /assignment
   udp: true
 - name: 🇺🇸 美国 | USA 15
   server: us1-r.link-t7.com
@@ -295,18 +300,6 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   udp: true
-- name: 🇺🇸US美国丨yoyapai.com
-  type: trojan
-  server: 216.24.57.7
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  alpn:
-  - http/1.1
-  skip-cert-verify: false
-  ws-opts:
-    path: /assignment
-  udp: true
 - name: 🇺🇸 美国 | USA 12
   server: us2.zuoai.cf
   port: 443
@@ -320,13 +313,6 @@ proxies:
     path: /proxyip=us.xiabibi.cf
     headers:
       Host: xi.tbv.ccwu.cc
-  udp: true
-- name: 🇩🇪 德国 | DEU 2
-  server: setlor.rehan-iogsar.ir
-  port: 4680
-  type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: 1JvlmtT4v8y1yGczDtT6Ww==:aCtpeMietGsJY50h6jDW6w==
   udp: true
 - name: 🇰🇷 韩国 | KOR 2
   server: kr3-r.link-t7.com
@@ -393,20 +379,16 @@ proxies:
     short-id: c39cc7310a
   skip-cert-verify: false
   udp: true
-- name: 🇵🇭 菲律宾 | PHL
-  server: 61.245.11.28
-  port: 9090
+- name: 🇳🇱NL荷兰丨yoyapai.com_5
   type: vless
-  uuid: Channel:telegram:TurboConfigs
+  server: 178.95.170.83
+  port: 2087
+  uuid: bf443e4a-aa9e-4509-abf0-d0f6828d57be
+  network: ws
   tls: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - play-apps-features.googleusercontent.com
+  ws-opts:
+    path: /4bc027a44532
+  skip-cert-verify: false
   udp: true
 - name: 🇳🇱 荷兰 | NLD 2
   server: 150.230.23.127
@@ -414,6 +396,19 @@ proxies:
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
   password: O0YzhVbSI6dkXq8u2erAigGyzED8wS+gjA6IoAv7p3M=
+  udp: true
+- name: 🇷🇺RU俄罗斯
+  type: vmess
+  server: renderer-stream-2-62.mirra.now
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /api/v1/gpu-stream/socket
   udp: true
 proxy-groups:
 - name: AUTO-FAST
@@ -427,32 +422,32 @@ proxy-groups:
   - 🇯🇵 日本 | JPN 3
   - 🇸🇬 新加坡 | SGP 3
   - 🇸🇬 新加坡 | SGP
-  - 🇸🇬 新加坡 | SGP 2
-  - 🇸🇬 新加坡 | SGP 9
+  - 🇸🇬 新加坡 | SGP 8
   - 🇸🇬 新加坡 | SGP 4
   - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 16
   - 🇺🇸 美国 | USA 6
-  - 🇺🇸 美国 | USA 3
   - 🇺🇸 美国 | USA 4
+  - 🇺🇸 美国 | USA 3
   - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 19
+  - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA 13
   - 🇺🇸 美国 | USA 17
+  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 15
   - 🇺🇸 美国 | USA 14
-  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 12
-  - 🇩🇪 德国 | DEU 2
   - 🇰🇷 韩国 | KOR 2
   - 🇹🇼 🇨🇳 台湾 | TWN
   - 🇹🇷 土耳其 | TUR
   - 🇦🇺AU澳大利亚丨yoyapai.com
   - 🇩🇪DE德国丨yoyapai.com_13
-  - 🇵🇭 菲律宾 | PHL
+  - 🇳🇱NL荷兰丨yoyapai.com_5
   - 🇳🇱 荷兰 | NLD 2
+  - 🇷🇺RU俄罗斯
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: HK-POOL
@@ -481,16 +476,17 @@ proxy-groups:
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 16
   - 🇺🇸 美国 | USA 6
-  - 🇺🇸 美国 | USA 3
   - 🇺🇸 美国 | USA 4
+  - 🇺🇸 美国 | USA 3
   - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 19
+  - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA 13
   - 🇺🇸 美国 | USA 17
+  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 15
   - 🇺🇸 美国 | USA 14
-  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 12
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -498,11 +494,11 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇺🇸US美国丨yoyapai.com
-  - 🇸🇬 新加坡 | SGP 10
   - 🇺🇸 美国 | USA 14
-  - 🇸🇬 新加坡 | SGP 3
   - 🇸🇬 新加坡 | SGP 4
-  - 🇺🇸 美国 | USA 3
+  - 🇸🇬 新加坡 | SGP 3
+  - 🇸🇬 新加坡 | SGP 10
+  - 🇺🇸 美国 | USA 16
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
