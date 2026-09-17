@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-09-17T15:10:30.771741+00:00'
+generated-at: '2026-09-17T19:09:54.450165+00:00'
 proxies:
 - name: 🇭🇰HK香港節點丨yoyapai.com_3
   type: vless
@@ -62,20 +62,6 @@ proxies:
       Host: jamph131-1228.pages.dev
   skip-cert-verify: false
   udp: true
-- name: 🇸🇬 新加坡 | SGP 2
-  server: 172.64.146.211
-  port: 2096
-  type: vless
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  tls: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  udp: true
 - name: 🇭🇰HK香港節點丨yoyapai.com_1
   type: vless
   server: 91.193.58.195
@@ -89,6 +75,20 @@ proxies:
     headers:
       Host: jamph131-1228.pages.dev
   skip-cert-verify: false
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 2
+  server: 172.64.146.211
+  port: 2096
+  type: vless
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  tls: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   udp: true
 - name: 🇭🇰HK香港節點丨yoyapai.com_2
   type: vless
@@ -104,20 +104,6 @@ proxies:
       Host: jamph131-1228.pages.dev
   skip-cert-verify: false
   udp: true
-- name: 🇸🇬 新加坡 | SGP 4
-  server: 172.64.146.211
-  port: 2087
-  type: vless
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  tls: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  udp: true
 - name: 🇯🇵 日本 | JPN
   server: 1-jp.ap.ku-ke.cc
   port: 443
@@ -131,6 +117,20 @@ proxies:
   servername: cdn.jsdelivr.net
   client-fingerprint: chrome
   network: tcp
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 4
+  server: 172.64.146.211
+  port: 2087
+  type: vless
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  tls: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   udp: true
 - name: 🇺🇸 美国 | USA 11
   server: 3x.lbruh.xyz
@@ -175,18 +175,6 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: w7iS/IiaXU91y57t4KbfBGELydrLtztiCsqlXF9TO5g=
   udp: true
-- name: 🇺🇸US美国丨yoyapai.com
-  type: trojan
-  server: 216.24.57.7
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  alpn:
-  - http/1.1
-  skip-cert-verify: false
-  ws-opts:
-    path: /assignment
-  udp: true
 - name: 🇺🇸 美国 | USA
   server: 129.146.126.143
   port: 50356
@@ -223,6 +211,18 @@ proxies:
     path: /
     headers:
       Host: cfvvv-ev1.pages.dev
+  udp: true
+- name: 🇺🇸US美国丨yoyapai.com
+  type: trojan
+  server: 216.24.57.7
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  alpn:
+  - http/1.1
+  skip-cert-verify: false
+  ws-opts:
+    path: /assignment
   udp: true
 - name: 🇺🇸 美国 | USA 2
   server: 139.64.235.225
@@ -444,20 +444,6 @@ proxies:
   auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: vpn-fr-002.fastervpn.world
   skip-cert-verify: true
-- name: 🇬🇧 英国 | GBR 3
-  server: 144.24.231.162
-  port: 61312
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: F0hfVWxhzOH0litAYyVAGxOQ7YUtyNdxp5F0PWBLyoQ=
-  udp: true
-- name: 🇬🇧 英国 | GBR
-  server: 129.151.66.210
-  port: 61312
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: RsOf4rCN1x4ccrOrmu9aOAoAFZzvxGunwxrf2ZNoBgM=
-  udp: true
 - name: 🇳🇱 荷兰 | NLD 9
   server: 125.7.24.251
   port: 443
@@ -471,6 +457,20 @@ proxies:
     path: /announcement
     headers:
       Host: nl-ams.xhs152.shop
+  udp: true
+- name: 🇬🇧 英国 | GBR 3
+  server: 144.24.231.162
+  port: 61312
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: F0hfVWxhzOH0litAYyVAGxOQ7YUtyNdxp5F0PWBLyoQ=
+  udp: true
+- name: 🇬🇧 英国 | GBR
+  server: 129.151.66.210
+  port: 61312
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: RsOf4rCN1x4ccrOrmu9aOAoAFZzvxGunwxrf2ZNoBgM=
   udp: true
 - name: 🇳🇱 荷兰 | NLD 5
   server: 92.5.228.170
@@ -494,19 +494,19 @@ proxy-groups:
   - 🇯🇵 日本 | JPN 3
   - 🇸🇬 新加坡 | SGP
   - 🇭🇰HK香港節點丨yoyapai.com
-  - 🇸🇬 新加坡 | SGP 2
   - 🇭🇰HK香港節點丨yoyapai.com_1
+  - 🇸🇬 新加坡 | SGP 2
   - 🇭🇰HK香港節點丨yoyapai.com_2
-  - 🇸🇬 新加坡 | SGP 4
   - 🇯🇵 日本 | JPN
+  - 🇸🇬 新加坡 | SGP 4
   - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 16
   - 🇺🇸 美国 | USA 6
-  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA 12
+  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 2
   - 🇳🇱 荷兰 | NLD 7
   - 🇩🇪 德国 | DEU 2
@@ -526,9 +526,9 @@ proxy-groups:
   - 🇳🇱 荷兰 | NLD 6
   - 🇳🇱 荷兰 | NLD 12
   - 🇫🇷 法国 | FRA 2
+  - 🇳🇱 荷兰 | NLD 9
   - 🇬🇧 英国 | GBR 3
   - 🇬🇧 英国 | GBR
-  - 🇳🇱 荷兰 | NLD 9
   - 🇳🇱 荷兰 | NLD 5
   - 🇪🇸 西班牙 | ESP
   url: http://www.gstatic.com/generate_204
@@ -556,24 +556,24 @@ proxy-groups:
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 16
   - 🇺🇸 美国 | USA 6
-  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA 12
+  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 2
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
   type: url-test
   proxies:
-  - 🇺🇸US美国丨yoyapai.com
-  - 🇺🇸 美国 | USA 8
-  - 🇺🇸 美国 | USA 16
-  - 🇸🇬 新加坡 | SGP 4
-  - 🇺🇸 美国 | USA 12
+  - 🇭🇰HK香港節點丨yoyapai.com_3
+  - 🇯🇵 日本 | JPN 3
   - 🇸🇬 新加坡 | SGP
-  - 🇺🇸 美国 | USA 2
+  - 🇭🇰HK香港節點丨yoyapai.com
+  - 🇭🇰HK香港節點丨yoyapai.com_1
   - 🇸🇬 新加坡 | SGP 2
+  - 🇭🇰HK香港節點丨yoyapai.com_2
+  - 🇯🇵 日本 | JPN
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
