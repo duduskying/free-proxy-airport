@@ -40,7 +40,7 @@ MAX_CANDIDATES = int(os.getenv("FREE_PROXY_AIRPORT_MAX_CANDIDATES", "0"))
 SOURCE_GROUPS = [
     {
         "name": "dudu-subscription",
-        "primary": "http://arm23.131005.xyz:3001/zhangyang/download/cfnew3.0?target=Clash",
+        "primary": "http://arm23.131005.xyz:3001/zhangyang/download/cfnew4.0?target=Clash",
         "fallbacks": [],
     },
 ]
