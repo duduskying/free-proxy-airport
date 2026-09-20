@@ -16,7 +16,7 @@ https://sunmiao4458.github.io/free-proxy-airport/clash.yaml
 
 节点源：
 
-- dudu-subscription (https://dudu.dudu.dpdns.org/b88a886d-d705-4aeb-8902-ccbd5e4d7e47/sub?target=clash)
+- 个人订阅
 
 核心能力：
 
