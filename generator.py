@@ -39,7 +39,7 @@ MAX_CANDIDATES = int(os.getenv("FREE_PROXY_AIRPORT_MAX_CANDIDATES", "0"))
 SOURCE_GROUPS = [
     {
         "name": "dudu-subscription",
-        "primary": "https://dudu.dudu.dpdns.org/b88a886d-d705-4aeb-8902-ccbd5e4d7e47/sub?target=clash",
+        "primary": "http://arm23.131005.xyz:3001/zhangyang/download/cfnew3.0?target=Clash",
         "fallbacks": [],
     },
 ]
@@ -267,6 +267,14 @@ def normalize_proxy(raw: dict[str, Any], index: int) -> dict[str, Any] | None:
     proxy["name"] = name
     proxy["server"] = server
     proxy["port"] = port
+
+    # Force TLS for port 443 (common for trojan-vless/etc with ws)
+    if port == 443:
+        proxy["tls"] = True
+
+    # Force skip-cert-verify to handle self-signed/expired certs
+    proxy["skip-cert-verify"] = True
+
     return proxy
 
 
