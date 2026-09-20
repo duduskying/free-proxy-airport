@@ -974,6 +974,7 @@ def main() -> None:
     validate_config(config)
     write_config(config)
     print_summary(total_nodes, len(candidates), metrics)
+    print_latency_report(metrics)
 
 
 if __name__ == "__main__":
