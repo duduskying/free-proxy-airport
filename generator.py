@@ -511,6 +511,8 @@ def detect_region(name: str) -> str:
         "HK": (
             "regex:\\bhk\\b",
             "regex:_hk_",
+            "regex:^hkg",
+            "regex:^hk",
             "hong kong",
             "\\u9999\\u6e2f",
             "港",
@@ -519,6 +521,10 @@ def detect_region(name: str) -> str:
         "JP": (
             "regex:\\bjp\\b",
             "regex:_jp_",
+            "regex:^nrt",
+            "regex:^hnd",
+            "regex:^kix",
+            "regex:^jp",
             "japan",
             "\\u65e5\\u672c",
             "日本",
@@ -527,6 +533,10 @@ def detect_region(name: str) -> str:
         "US": (
             "regex:\\b(us|usa)\\b",
             "regex:_us_",
+            "regex:^sjc",
+            "regex:^lax",
+            "regex:^iad",
+            "regex:^us",
             "united states",
             "america",
             "\\u7f8e\\u56fd",
@@ -537,6 +547,8 @@ def detect_region(name: str) -> str:
         "SG": (
             "regex:\\bsg\\b",
             "regex:_sg_",
+            "regex:^sin",
+            "regex:^sg",
             "singapore",
             "\\u65b0\\u52a0\\u5761",
             "新加坡",
@@ -545,6 +557,7 @@ def detect_region(name: str) -> str:
         "TW": (
             "regex:\\btw\\b",
             "regex:_tw_",
+            "regex:^tw",
             "taiwan",
             "\\u53f0\\u7063",
             "宝岛",
@@ -553,6 +566,8 @@ def detect_region(name: str) -> str:
         "KR": (
             "regex:\\bkr\\b",
             "regex:_kr_",
+            "regex:^icn",
+            "regex:^kr",
             "korea",
             "\\u97e9\\u56fd",
             "泡菜",
@@ -561,6 +576,8 @@ def detect_region(name: str) -> str:
         "DE": (
             "regex:\\bde\\b",
             "regex:_de_",
+            "regex:^fra",
+            "regex:^de",
             "germany",
             "\\u5fb7\\u56fd",
             "元首",
@@ -569,6 +586,8 @@ def detect_region(name: str) -> str:
         "NL": (
             "regex:\\bnl\\b",
             "regex:_nl_",
+            "regex:^ams",
+            "regex:^nl",
             "netherlands",
             "\\u8377\\u5170",
             "风车",
@@ -577,6 +596,8 @@ def detect_region(name: str) -> str:
         "UK": (
             "regex:\\buk\\b",
             "regex:_uk_",
+            "regex:^lhr",
+            "regex:^uk",
             "united kingdom",
             "\\u82f1\\u56fd",
             "大嘤",
@@ -585,6 +606,10 @@ def detect_region(name: str) -> str:
         "FR": (
             "regex:\\bfr\\b",
             "regex:_fr_",
+            "regex:^cdg",
+            "regex:^ory",
+            "regex:^gva",
+            "regex:^fr",
             "france",
             "\\u6cd5\\u56fd",
             "乳法",
@@ -593,6 +618,8 @@ def detect_region(name: str) -> str:
         "AU": (
             "regex:\\bau\\b",
             "regex:_au_",
+            "regex:^syd",
+            "regex:^au",
             "australia",
             "\\u6fb3\\u5927\\u5229\\u4e9a",
             "土澳",
@@ -602,6 +629,7 @@ def detect_region(name: str) -> str:
         "CA": (
             "regex:\\bca\\b",
             "regex:_ca_",
+            "regex:^ca",
             "canada",
             "\\u52a0\\u62ff\\u5927",
             "枫叶",
@@ -610,6 +638,7 @@ def detect_region(name: str) -> str:
         "RU": (
             "regex:\\bru\\b",
             "regex:_ru_",
+            "regex:^ru",
             "russia",
             "\\u4fc4\\u7f57\\u65af",
             "战斗毛子",
@@ -618,6 +647,9 @@ def detect_region(name: str) -> str:
         "IN": (
             "regex:\\bin\\b",
             "regex:_in_",
+            "regex:^bom",
+            "regex:^maa",
+            "regex:^in",
             "india",
             "\\u5370\\u5ea6",
             "干净卫生",
@@ -626,6 +658,7 @@ def detect_region(name: str) -> str:
         "TR": (
             "regex:\\btr\\b",
             "regex:_tr_",
+            "regex:^tr",
             "turkey",
             "\\u571f\\u5176\\u5176",
             "烤肉",
@@ -634,6 +667,7 @@ def detect_region(name: str) -> str:
         "TH": (
             "regex:\\bth\\b",
             "regex:_th_",
+            "regex:^th",
             "thailand",
             "\\u6cf0\\u56fd",
             "萨瓦迪卡",
@@ -642,6 +676,7 @@ def detect_region(name: str) -> str:
         "VN": (
             "regex:\\bvn\\b",
             "regex:_vn_",
+            "regex:^vn",
             "vietnam",
             "\\u8d8a\\u5357",
             "西贡",
@@ -650,6 +685,7 @@ def detect_region(name: str) -> str:
         "MY": (
             "regex:\\bmy\\b",
             "regex:_my_",
+            "regex:^my",
             "malaysia",
             "\\u9a6c\\u6765\\u897f\\u4e9a",
             "大马",
@@ -938,7 +974,7 @@ def write_node_list(metrics: list[ProxyMetric]) -> None:
             server = item.proxy.get("server", "")
             port = item.proxy.get("port", "")
             code = f"{region}{i:02d}"
-            line = f"{server}:{port}#{code}"
+            line = f"{code}-{server}:{port}"
             lines.append(line)
             total_count += 1
         lines.append("")
