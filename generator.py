@@ -735,6 +735,54 @@ def print_summary(total_nodes: int, candidates: int, metrics: list[ProxyMetric])
     print(f"[SUMMARY] output={OUTPUT_PATH}")
 
 
+def print_latency_report(metrics: list[ProxyMetric]) -> None:
+    """Print detailed latency report for each node."""
+    if not metrics:
+        print("[REPORT] No metrics to report")
+        return
+
+    # Sort by latency for better readability
+    sorted_metrics = sorted(metrics, key=lambda x: x.latency)
+
+    print()
+    print("=" * 80)
+    print("DETAILED LATENCY REPORT")
+    print("=" * 80)
+    print(f"{'Rank':<6}{'Name':<50}{'Latency':<10}{'Region':<8}{'Score':<8}")
+    print("-" * 80)
+
+    for i, m in enumerate(sorted_metrics[:100], start=1):
+        name = m.proxy.get("name", "")[:48]
+        latency = f"{m.latency}ms"
+        region = m.region
+        score = f"{m.health_score:.4f}"
+        print(f"{i:<6}{name:<50}{latency:<10}{region:<8}{score:<8}")
+
+    if len(metrics) > 100:
+        print(f"... and {len(metrics) - 100} more nodes")
+
+    print("=" * 80)
+
+    # Save report to file
+    report_path = OUTPUT_PATH.parent / "latency_report.txt"
+    report_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(report_path, "w", encoding="utf-8") as f:
+        f.write("=" * 80 + "\n")
+        f.write("DETAILED LATENCY REPORT\n")
+        f.write("=" * 80 + "\n")
+        f.write(f"{'Rank':<6}{'Name':<50}{'Latency':<10}{'Region':<8}{'Score':<8}\n")
+        f.write("-" * 80 + "\n")
+        for i, m in enumerate(sorted_metrics, start=1):
+            name = m.proxy.get("name", "")[:48]
+            latency = f"{m.latency}ms"
+            region = m.region
+            score = f"{m.health_score:.4f}"
+            f.write(f"{i:<6}{name:<50}{latency:<10}{region:<8}{score:<8}\n")
+        f.write("=" * 80 + "\n")
+
+    print(f"[REPORT] Full report saved to: {report_path}")
+
+
 def main() -> None:
     total_nodes, candidates = collect_proxies()
     metrics: list[ProxyMetric] = []
