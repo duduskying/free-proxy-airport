@@ -16,6 +16,7 @@ import sys
 import tempfile
 import time
 import zipfile
+from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
 from datetime import datetime, timezone
@@ -509,30 +510,151 @@ def detect_region(name: str) -> str:
     patterns = {
         "HK": (
             "regex:\\bhk\\b",
+            "regex:_hk_",
             "hong kong",
             "\\u9999\\u6e2f",
+            "港",
             "\U0001f1ed\U0001f1f0",
         ),
         "JP": (
             "regex:\\bjp\\b",
+            "regex:_jp_",
             "japan",
             "\\u65e5\\u672c",
+            "日本",
             "\U0001f1ef\U0001f1f5",
         ),
         "US": (
-            "regex:\\bus\\b",
-            "regex:\\busa\\b",
+            "regex:\\b(us|usa)\\b",
+            "regex:_us_",
             "united states",
             "america",
             "\\u7f8e\\u56fd",
             "\\u7f8e\\u570b",
+            "美",
             "\U0001f1fa\U0001f1f8",
         ),
         "SG": (
             "regex:\\bsg\\b",
+            "regex:_sg_",
             "singapore",
             "\\u65b0\\u52a0\\u5761",
+            "新加坡",
             "\U0001f1f8\U0001f1ec",
+        ),
+        "TW": (
+            "regex:\\btw\\b",
+            "regex:_tw_",
+            "taiwan",
+            "\\u53f0\\u7063",
+            "宝岛",
+            "\U0001f1f9\U0001f1fc",
+        ),
+        "KR": (
+            "regex:\\bkr\\b",
+            "regex:_kr_",
+            "korea",
+            "\\u97e9\\u56fd",
+            "泡菜",
+            "\U0001f1f0\U0001f1f7",
+        ),
+        "DE": (
+            "regex:\\bde\\b",
+            "regex:_de_",
+            "germany",
+            "\\u5fb7\\u56fd",
+            "元首",
+            "\U0001f1e9\U0001f1ea",
+        ),
+        "NL": (
+            "regex:\\bnl\\b",
+            "regex:_nl_",
+            "netherlands",
+            "\\u8377\\u5170",
+            "风车",
+            "\U0001f1f3\U0001f1f1",
+        ),
+        "UK": (
+            "regex:\\buk\\b",
+            "regex:_uk_",
+            "united kingdom",
+            "\\u82f1\\u56fd",
+            "大嘤",
+            "\U0001f1ec\U0001f1e7",
+        ),
+        "FR": (
+            "regex:\\bfr\\b",
+            "regex:_fr_",
+            "france",
+            "\\u6cd5\\u56fd",
+            "乳法",
+            "\U0001f1eb\U0001f1f7",
+        ),
+        "AU": (
+            "regex:\\bau\\b",
+            "regex:_au_",
+            "australia",
+            "\\u6fb3\\u5927\\u5229\\u4e9a",
+            "土澳",
+            "袋鼠",
+            "\U0001f1e6\U0001f1fa",
+        ),
+        "CA": (
+            "regex:\\bca\\b",
+            "regex:_ca_",
+            "canada",
+            "\\u52a0\\u62ff\\u5927",
+            "枫叶",
+            "\U0001f1e8\U0001f1e6",
+        ),
+        "RU": (
+            "regex:\\bru\\b",
+            "regex:_ru_",
+            "russia",
+            "\\u4fc4\\u7f57\\u65af",
+            "战斗毛子",
+            "\U0001f1f7\U0001f1fa",
+        ),
+        "IN": (
+            "regex:\\bin\\b",
+            "regex:_in_",
+            "india",
+            "\\u5370\\u5ea6",
+            "干净卫生",
+            "\U0001f1ee\U0001f1f3",
+        ),
+        "TR": (
+            "regex:\\btr\\b",
+            "regex:_tr_",
+            "turkey",
+            "\\u571f\\u5176\\u5176",
+            "烤肉",
+            "\U0001f1f9\U0001f1f7",
+        ),
+        "TH": (
+            "regex:\\bth\\b",
+            "regex:_th_",
+            "thailand",
+            "\\u6cf0\\u56fd",
+            "萨瓦迪卡",
+            "\U0001f1f9\U0001f1ed",
+        ),
+        "VN": (
+            "regex:\\bvn\\b",
+            "regex:_vn_",
+            "vietnam",
+            "\\u8d8a\\u5357",
+            "西贡",
+            "\U0001f1fb\U0001f1f3",
+        ),
+        "MY": (
+            "regex:\\bmy\\b",
+            "regex:_my_",
+            "malaysia",
+            "\\u9a6c\\u6765\\u897f\\u4e9a",
+            "大马",
+            "榴莲",
+            "\U0001f1f2\U0001f1fe",
         ),
     }
     for region, tokens in patterns.items():
@@ -781,6 +903,51 @@ def print_latency_report(metrics: list[ProxyMetric]) -> None:
         f.write("=" * 80 + "\n")
 
     print(f"[REPORT] Full report saved to: {report_path}")
+
+    write_node_list(metrics)
+
+
+def write_node_list(metrics: list[ProxyMetric]) -> None:
+    """Generate node list file grouped by region, sorted by latency."""
+    if not metrics:
+        print("[NODE_LIST] No metrics to generate node list")
+        return
+
+    # Group metrics by region
+    region_groups: dict[str, list[ProxyMetric]] = defaultdict(list)
+    for item in metrics:
+        region_groups[item.region].append(item)
+
+    # Sort each region group by latency ascending
+    for region in region_groups:
+        region_groups[region].sort(key=lambda x: x.latency)
+
+    # Build node list content
+    lines: list[str] = []
+    lines.append("=" * 60)
+    lines.append("NODE LIST BY REGION (sorted by latency)")
+    lines.append("=" * 60)
+    lines.append("")
+
+    total_count = 0
+    for region in sorted(region_groups.keys()):
+        items = region_groups[region]
+        lines.append(f"--- {region} ({len(items)} nodes) ---")
+        for i, item in enumerate(items, start=1):
+            name = item.proxy.get("name", "")
+            server = item.proxy.get("server", "")
+            port = item.proxy.get("port", "")
+            code = f"{region}{i:02d}"
+            line = f"{server}:{port}#{code}"
+            lines.append(line)
+            total_count += 1
+        lines.append("")
+
+    # Save to file
+    node_list_path = OUTPUT_PATH.parent / "node_list.txt"
+    node_list_path.parent.mkdir(parents=True, exist_ok=True)
+    node_list_path.write_text("\n".join(lines), encoding="utf-8")
+    print(f"[NODE_LIST] Generated {total_count} entries, saved to: {node_list_path}")
 
 
 def main() -> None:
