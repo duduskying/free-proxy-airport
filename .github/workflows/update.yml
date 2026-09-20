@@ -38,7 +38,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output/clash.yaml docs/clash.yaml docs/.nojekyll
+          git add output/clash.yaml output/latency_report.txt output/node_list.txt docs/clash.yaml docs/.nojekyll
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
