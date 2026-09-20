@@ -16,10 +16,7 @@ https://sunmiao4458.github.io/free-proxy-airport/clash.yaml
 
 节点源：
 
-- openRunner clash-freenode
-- snakem982 proxypool
-- Flikify Free Node
-- free-clash-v2ray GitHub Pages
+- dudu-subscription (https://dudu.dudu.dpdns.org/b88a886d-d705-4aeb-8902-ccbd5e4d7e47/sub?target=clash)
 
 核心能力：
 

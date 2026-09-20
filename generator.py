@@ -38,35 +38,9 @@ MAX_CANDIDATES = int(os.getenv("FREE_PROXY_AIRPORT_MAX_CANDIDATES", "0"))
 
 SOURCE_GROUPS = [
     {
-        "name": "openRunner clash-freenode",
-        "primary": "https://raw.githubusercontent.com/openRunner/clash-freenode/main/sub.yaml",
-        "fallbacks": [
-            "https://raw.githubusercontent.com/openRunner/clash-freenode/main/clash.yaml",
-            "https://raw.githubusercontent.com/openrunner/clash-freenode/main/clash.yaml",
-        ],
-    },
-    {
-        "name": "snakem982 proxypool",
-        "primary": "https://raw.githubusercontent.com/snakem982/proxypool/main/clash.yaml",
-        "fallbacks": [
-            "https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta-2.yaml",
-            "https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta.yaml",
-        ],
-    },
-    {
-        "name": "Flikify Free-Node",
-        "primary": "https://raw.githubusercontent.com/Flikify/Free-Node/main/clash.yaml",
-        "fallbacks": [
-            "https://raw.githubusercontent.com/a2470982985/getNode/main/clash.yaml",
-            "https://cdn.jsdelivr.net/gh/a2470982985/getNode@main/clash.yaml",
-        ],
-    },
-    {
-        "name": "free-clash-v2ray GitHub Pages",
-        "primary": "https://free-clash-v2ray.github.io/uploads/latest.yaml",
-        "fallbacks": [
-            "discover:free-clash-v2ray",
-        ],
+        "name": "dudu-subscription",
+        "primary": "https://dudu.dudu.dpdns.org/b88a886d-d705-4aeb-8902-ccbd5e4d7e47/sub?target=clash",
+        "fallbacks": [],
     },
 ]
 
