@@ -973,7 +973,7 @@ def write_node_list(metrics: list[ProxyMetric]) -> None:
             name = item.proxy.get("name", "")
             server = item.proxy.get("server", "")
             port = item.proxy.get("port", "")
-            code = f"{region}{i:02d}"
+            code = f"{region}"
             line = f"{server}:{port}#{code}-{server}:{port}"
             lines.append(line)
             total_count += 1
