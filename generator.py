@@ -943,15 +943,19 @@ def print_latency_report(metrics: list[ProxyMetric]) -> None:
     write_node_list(metrics)
 
 
-def write_node_list(metrics: list[ProxyMetric]) -> None:
+def write_node_list(metrics: list[ProxyMetric], max_latency: int = 500) -> None:
     """Generate node list file grouped by region, sorted by latency."""
     if not metrics:
         print("[NODE_LIST] No metrics to generate node list")
         return
 
-    # Group metrics by region
+    # Filter nodes by latency and group by region
     region_groups: dict[str, list[ProxyMetric]] = defaultdict(list)
+    skipped = 0
     for item in metrics:
+        if item.latency > max_latency:
+            skipped += 1
+            continue
         region_groups[item.region].append(item)
 
     # Sort each region group by latency ascending
@@ -961,7 +965,7 @@ def write_node_list(metrics: list[ProxyMetric]) -> None:
     # Build node list content
     lines: list[str] = []
     lines.append("=" * 60)
-    lines.append("NODE LIST BY REGION (sorted by latency)")
+    lines.append(f"NODE LIST BY REGION (sorted by latency, < {max_latency}ms)")
     lines.append("=" * 60)
     lines.append("")
 
@@ -983,7 +987,7 @@ def write_node_list(metrics: list[ProxyMetric]) -> None:
     node_list_path = OUTPUT_PATH.parent / "node_list.txt"
     node_list_path.parent.mkdir(parents=True, exist_ok=True)
     node_list_path.write_text("\n".join(lines), encoding="utf-8")
-    print(f"[NODE_LIST] Generated {total_count} entries, saved to: {node_list_path}")
+    print(f"[NODE_LIST] Generated {total_count} entries, skipped {skipped} (> {max_latency}ms), saved to: {node_list_path}")
 
 
 def main() -> None:
