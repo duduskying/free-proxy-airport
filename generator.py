@@ -943,7 +943,7 @@ def print_latency_report(metrics: list[ProxyMetric]) -> None:
     write_node_list(metrics)
 
 
-def write_node_list(metrics: list[ProxyMetric], max_latency: int = 500) -> None:
+def write_node_list(metrics: list[ProxyMetric], max_latency: int = 1000) -> None:
     """Generate node list file grouped by region, sorted by latency."""
     if not metrics:
         print("[NODE_LIST] No metrics to generate node list")
