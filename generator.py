@@ -30,7 +30,7 @@ import yaml
 
 VERSION = "v7"
 OUTPUT_PATH = Path("output/clash.yaml")
-TEST_URL = "https://cp.cloudflare.com/generate_204"
+TEST_URL = "https://www.google.com/generate_204"
 SOURCE_TIMEOUT = 25
 LATENCY_TIMEOUT_MS = 5000
 MAX_RETRIES = 3
