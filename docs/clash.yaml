@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-10-03T20:27:07.091801+00:00'
+generated-at: '2026-10-03T23:15:00.184477+00:00'
 proxies:
 - type: vless
   name: HKG-HK-10
@@ -24,8 +24,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: HKG-HK-19
-  server: 104.17.112.83
+  name: HKG-HK-20
+  server: 104.17.190.165
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -38,8 +38,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: HKG-HK-20
-  server: 104.17.190.165
+  name: HKG-HK-19
+  server: 104.17.112.83
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -68,6 +68,34 @@ proxies:
 - type: vless
   name: 优选IP4 | HK | 02
   server: 104.17.123.90
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: HKG-HK-29
+  server: 104.17.104.109
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: 洛璃优选 | 中国香港 HK | 68.64.182.79:443
+  server: 68.64.182.79
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -150,8 +178,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: HKG-HK-29
-  server: 104.17.104.109
+  name: 洛璃优选 | 小日本儿 JP | 45.77.180.114:443
+  server: 45.77.180.114
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -164,8 +192,22 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: 洛璃优选 | 小日本儿 JP | 45.63.124.130:443
-  server: 45.63.124.130
+  name: HKG-HK-37
+  server: 45.128.220.169
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: HKG-HK-23
+  server: 104.18.33.223
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -206,6 +248,20 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
+  name: S5公益优选 | 港岛茶记 | HK | 45.145.229.223:443
+  server: 45.145.229.223
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
   name: HKG-HK-24
   server: 104.19.147.170
   port: 443
@@ -220,9 +276,23 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: S5公益优选 | 港岛茶记 | HK | 45.145.229.223:443
-  server: 45.145.229.223
+  name: 优选IP4 | HK | 04
+  server: 104.19.149.197
   port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: SG-54.179.79.12:53646
+  server: 54.179.79.12
+  port: 53646
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -250,6 +320,20 @@ proxies:
 - type: vless
   name: S5公益优选 | 印加坡县 | SG | 172.105.121.230:443
   server: 172.105.121.230
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: HKG-HK-4
+  server: 104.17.155.37
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -332,6 +416,20 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
+  name: 优选IP4 | HK | 05
+  server: 104.19.50.174
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
   name: HKG-SG
   server: 8.222.70.238
   port: 443
@@ -346,36 +444,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: 天诚优选1 | 小日本儿 | JP | 141.11.138.218:443
-  server: 141.11.138.218
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
   name: S5公益优选 | 印加坡县 | SG | 139.162.41.109:443
   server: 139.162.41.109
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
-  name: HKG-HK-8
-  server: 104.17.116.41
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -416,8 +486,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: HKG-HK
-  server: 104.18.44.53
+  name: HKG-HK-27
+  server: 104.19.41.249
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -430,22 +500,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: 优选IP4 | HK | 04
-  server: 104.19.149.197
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
-  name: HKG-HK-23
-  server: 104.18.33.223
+  name: 洛璃优选 | 小日本儿 JP | 107.191.53.84:443
+  server: 107.191.53.84
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -460,6 +516,62 @@ proxies:
 - type: vless
   name: 天诚优选1 | 小日本儿 | JP | 45.32.49.254:443
   server: 45.32.49.254
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: HKG-HK-8
+  server: 104.17.116.41
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: HKG-HK
+  server: 104.18.44.53
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: 洛璃优选 | 小日本儿 JP | 108.160.136.71:443
+  server: 108.160.136.71
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: 优选IP4 | HK | 03
+  server: 104.19.32.173
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -500,50 +612,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: S5公益优选 | 印加坡县 | SG | 43.160.220.86:443
-  server: 43.160.220.86
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
   name: S5公益优选 | 港岛茶记 | HK | 143.14.189.170:443
   server: 143.14.189.170
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
-  name: HKG-HK-27
-  server: 104.19.41.249
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
-  name: HKG-HK-4
-  server: 104.17.155.37
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -598,8 +668,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: 优选IP4 | HK | 05
-  server: 104.19.50.174
+  name: HKG-HK-7
+  server: 104.17.20.177
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -640,78 +710,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: HKG-HK-7
-  server: 104.17.20.177
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
-  name: 优选IP4 | HK | 03
-  server: 104.19.32.173
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
-  name: SIN-SG-5
-  server: 13.212.19.68
-  port: 56138
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
-  name: SIN-SG
-  server: 149.118.55.215
-  port: 2053
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
   name: S5公益优选 | 港岛茶记 | HK | 124.244.55.157:443
   server: 124.244.55.157
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
-  name: 洛璃优选 | 新加坡 SG | 43.160.241.174:443
-  server: 43.160.241.174
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -794,8 +794,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: NRT-JP-7
-  server: 45.192.200.133
+  name: S5公益优选 | 港岛茶记 | HK | 2.27.132.136:443
+  server: 2.27.132.136
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -808,8 +808,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: S5公益优选 | 港岛茶记 | HK | 2.27.132.136:443
-  server: 2.27.132.136
+  name: NRT-JP-7
+  server: 45.192.200.133
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -892,6 +892,20 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
+  name: 洛璃优选 | 中国香港 HK | 149.104.6.130:443
+  server: 149.104.6.130
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
   name: S5公益优选 | 小日本儿 | JP | 172.237.1.32:443
   server: 172.237.1.32
   port: 443
@@ -906,8 +920,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: S5公益优选 | 港岛茶记 | HK | 45.152.65.100:443
-  server: 45.152.65.100
+  name: S5公益优选 | 港岛茶记 | HK | 207.57.123.31:443
+  server: 207.57.123.31
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -920,8 +934,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: S5公益优选 | 港岛茶记 | HK | 207.57.123.31:443
-  server: 207.57.123.31
+  name: S5公益优选 | 港岛茶记 | HK | 45.152.65.100:443
+  server: 45.152.65.100
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -976,8 +990,36 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
+  name: HK-216.23.94.147:443
+  server: 216.23.94.147
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
   name: S5公益优选 | 印加坡县 | SG | 89.28.239.163:443
   server: 89.28.239.163
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: HKG-HK-17
+  server: 104.16.146.146
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -1021,6 +1063,20 @@ proxies:
   name: S5公益优选 | 港岛茶记 | HK | 43.175.131.30:443
   server: 43.175.131.30
   port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: JP-36.50.84.115:11704
+  server: 36.50.84.115
+  port: 11704
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -1076,6 +1132,20 @@ proxies:
 - type: vless
   name: 天诚优选1 | 港岛茶记 | HK | 82.22.31.122:443
   server: 82.22.31.122
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: JP-47.79.35.185:443
+  server: 47.79.35.185
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -1172,8 +1242,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: HKG-HK-17
-  server: 104.16.146.146
+  name: HKG-HK-3
+  server: 104.16.241.242
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -1200,9 +1270,9 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: S5公益优选 | 印加坡县 | SG | 64.56.71.152:8443
-  server: 64.56.71.152
-  port: 8443
+  name: HKG-HK-31
+  server: 85.121.245.35
+  port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -1214,9 +1284,23 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: HKG-HK-3
-  server: 104.16.241.242
-  port: 443
+  name: SG-13.212.19.68:56138
+  server: 13.212.19.68
+  port: 56138
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: S5公益优选 | 印加坡县 | SG | 64.56.71.152:8443
+  server: 64.56.71.152
+  port: 8443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -1258,20 +1342,6 @@ proxies:
 - type: vless
   name: 天诚优选1 | 印加坡县 | SG | 47.84.109.138:443
   server: 47.84.109.138
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
-  name: S5公益优选 | 港岛茶记 | HK | 68.64.183.37:443
-  server: 68.64.183.37
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -1396,9 +1466,65 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
+  name: HKG-HK-21
+  server: 104.17.215.167
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: HKG-HK-22
+  server: 104.17.51.88
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
   name: S5公益优选 | 小日本儿 | JP | 45.192.206.31:8443
   server: 45.192.206.31
   port: 8443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: HKG-HK-2
+  server: 104.19.34.60
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: 洛璃优选 | 小日本儿 JP | 45.32.56.242:443
+  server: 45.32.56.242
+  port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -1452,8 +1578,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: HKG-HK-2
-  server: 104.19.34.60
+  name: HKG-HK-30
+  server: 104.17.105.36
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -1466,8 +1592,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: 洛璃优选 | 小日本儿 JP | 180.149.230.33:443
-  server: 180.149.230.33
+  name: HKG-HK-25
+  server: 104.19.36.59
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -1480,8 +1606,36 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: HKG-HK-21
-  server: 104.17.215.167
+  name: JP-38.47.110.42:443
+  server: 38.47.110.42
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: HKG-HK-5
+  server: 104.17.219.29
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: HKG-HK-26
+  server: 104.19.44.176
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -1508,8 +1662,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: HKG-HK-26
-  server: 104.19.44.176
+  name: HK-27.50.48.8:443
+  server: 27.50.48.8
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -1564,22 +1718,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: HKG-HK-22
-  server: 104.17.51.88
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
-  name: 洛璃优选 | 新加坡 SG | 20.6.12.145:443
-  server: 20.6.12.145
+  name: 洛璃优选 | 小日本儿 JP | 108.61.160.16:443
+  server: 108.61.160.16
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -1606,8 +1746,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: HKG-HK-6
-  server: 172.64.152.37
+  name: HK-27.50.48.4:443
+  server: 27.50.48.4
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -1620,22 +1760,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: 洛璃优选 | 小日本儿 JP | 198.13.45.210:443
-  server: 198.13.45.210
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
-  name: HKG-HK-30
-  server: 104.17.105.36
+  name: 洛璃优选 | 小日本儿 JP | 45.76.208.253:443
+  server: 45.76.208.253
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -1662,8 +1788,36 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: HKG-HK-5
-  server: 104.17.219.29
+  name: JP-43.170.8.95:443
+  server: 43.170.8.95
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: HKG-HK-16
+  server: 104.17.211.97
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: HKG-HK-6
+  server: 172.64.152.37
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -1690,8 +1844,64 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
+  name: HKG-HK-14
+  server: 104.17.124.249
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
   name: SG [高速 by Jz 20M]
   server: 188.253.125.115
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: JP-47.79.147.53:443
+  server: 47.79.147.53
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: HKG-HK-18
+  server: 104.16.244.88
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: HKG-HK-28
+  server: 104.16.152.113
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -1718,8 +1928,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: SIN-SG-2
-  server: 159.223.33.4
+  name: 优选IP4 | HK | 01
+  server: 104.17.161.49
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -1732,8 +1942,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: HKG-HK-28
-  server: 104.16.152.113
+  name: SIN-SG-2
+  server: 159.223.33.4
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -1774,22 +1984,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: S5公益优选 | 小日本儿 | JP | 131.143.215.40:443
-  server: 131.143.215.40
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
-  name: HKG-HK-16
-  server: 104.17.211.97
+  name: SG-43.160.241.174:443
+  server: 43.160.241.174
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -1816,36 +2012,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: HKG-HK-25
-  server: 104.19.36.59
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
   name: S5公益优选 | 港岛茶记 | HK | 38.207.177.204:443
   server: 38.207.177.204
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
-  name: S5公益优选 | 印加坡县 | SG | 139.162.17.105:443
-  server: 139.162.17.105
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -1872,9 +2040,9 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: 天诚优选1 | 港岛茶记 | HK | 119.45.225.117:8443
-  server: 119.45.225.117
-  port: 8443
+  name: S5公益优选 | 印加坡县 | SG | 139.162.17.105:443
+  server: 139.162.17.105
+  port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -1886,9 +2054,9 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: 优选IP4 | HK | 01
-  server: 104.17.161.49
-  port: 443
+  name: 天诚优选1 | 港岛茶记 | HK | 119.45.225.117:8443
+  server: 119.45.225.117
+  port: 8443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -1928,8 +2096,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: HKG-HK-14
-  server: 104.17.124.249
+  name: 洛璃优选 | 小日本儿 JP | 198.13.33.123:443
+  server: 198.13.33.123
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -2012,20 +2180,6 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: HKG-HK-18
-  server: 104.16.244.88
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
   name: S5公益优选 | 印加坡县 | SG | 139.162.44.222:443
   server: 139.162.44.222
   port: 443
@@ -2040,9 +2194,9 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: S5公益优选 | 小日本儿 | JP | 172.104.81.253:443
-  server: 172.104.81.253
-  port: 443
+  name: 洛璃优选 | 新加坡 SG | 15.235.212.159:8443
+  server: 15.235.212.159
+  port: 8443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -2054,8 +2208,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: JP [高速 by Jz 28M]
-  server: 5.34.220.81
+  name: S5公益优选 | 小日本儿 | JP | 172.104.81.253:443
+  server: 172.104.81.253
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -2082,6 +2236,20 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
+  name: JP [高速 by Jz 28M]
+  server: 5.34.220.81
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
   name: S5公益优选 | 小日本儿 | JP | 61.124.1.97:443
   server: 61.124.1.97
   port: 443
@@ -2096,22 +2264,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: HK-85.121.245.35:443
-  server: 85.121.245.35
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
-  name: S5公益优选 | 小日本儿 | JP | 172.237.6.212:443
-  server: 172.237.6.212
+  name: 洛璃优选 | 新加坡 SG | 82.109.96.42:443
+  server: 82.109.96.42
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -2138,9 +2292,37 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
+  name: S5公益优选 | 小日本儿 | JP | 172.237.6.212:443
+  server: 172.237.6.212
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
   name: S5公益优选 | 小日本儿 | JP | 18.180.86.39:443
   server: 18.180.86.39
   port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: JP-216.23.123.64:30718
+  server: 216.23.123.64
+  port: 30718
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -2166,64 +2348,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: 洛璃优选 | 新加坡 SG | 162.128.72.114:443
-  server: 162.128.72.114
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
-  name: 洛璃优选 | 小日本儿 JP | 45.76.216.24:443
-  server: 45.76.216.24
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
-  name: 洛璃优选 | 小日本儿 JP | 207.148.115.152:443
-  server: 207.148.115.152
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
   name: S5公益优选 | 港岛茶记 | HK | 2.27.109.62:443
   server: 2.27.109.62
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
-  name: HKG-HK-36
-  server: 45.128.220.169
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -2278,48 +2404,6 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: 天诚优选1 | 战争贩子 | US | 172.64.229.144:443
-  server: 172.64.229.144
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
-  name: 天诚优选1 | 战争贩子 | US | 172.64.229.219:443
-  server: 172.64.229.219
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
-  name: Gslege优选 | us 【美国】 US | 103.31.4.3
-  server: 103.31.4.3
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
   name: Gslege优选 | us 【美国】 US | 104.17.0.3
   server: 104.17.0.3
   port: 443
@@ -2348,64 +2432,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: 优选IP4 | US | 02
-  server: 104.19.178.62
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
-  name: 天诚优选1 | 战争贩子 | US | 172.64.229.2:443
-  server: 172.64.229.2
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
-  name: S5公益优选 | 战争贩子 | US | 162.243.131.126:443
-  server: 162.243.131.126
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
-  name: S5公益优选 | 战争贩子 | US | 137.184.11.137:443
-  server: 137.184.11.137
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
-  name: S5公益优选 | 战争贩子 | US | 170.106.74.35:443
-  server: 170.106.74.35
+  name: 天诚优选1 | 战争贩子 | US | 172.64.229.144:443
+  server: 172.64.229.144
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -2432,8 +2460,106 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: S5公益优选 | 战争贩子 | US | 143.110.131.126:443
-  server: 143.110.131.126
+  name: 优选IP4 | US | 02
+  server: 104.19.178.62
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: Gslege优选 | us 【美国】 US | 103.31.4.3
+  server: 103.31.4.3
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: 天诚优选1 | 战争贩子 | US | 172.64.229.219:443
+  server: 172.64.229.219
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: US-47.88.15.89:443
+  server: 47.88.15.89
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: 天诚优选1 | 战争贩子 | US | 172.64.229.2:443
+  server: 172.64.229.2
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: S5公益优选 | 战争贩子 | US | 137.184.11.137:443
+  server: 137.184.11.137
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: S5公益优选 | 战争贩子 | US | 162.243.131.126:443
+  server: 162.243.131.126
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: US-47.77.210.148:443
+  server: 47.77.210.148
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -2448,6 +2574,48 @@ proxies:
 - type: vless
   name: 天诚优选1 | 战争贩子 | US | 172.64.229.97:443
   server: 172.64.229.97
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: US-47.77.201.227:443
+  server: 47.77.201.227
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: S5公益优选 | 战争贩子 | US | 170.106.74.35:443
+  server: 170.106.74.35
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: S5公益优选 | 战争贩子 | US | 143.110.131.126:443
+  server: 143.110.131.126
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -2488,6 +2656,20 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
+  name: 优选IP4 | US | 03
+  server: 104.16.226.1
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
   name: S5公益优选 | 战争贩子 | US | 157.245.178.181:2083
   server: 157.245.178.181
   port: 2083
@@ -2505,6 +2687,20 @@ proxies:
   name: S5公益优选 | 战争贩子 | US | 103.91.219.6:8443
   server: 103.91.219.6
   port: 8443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: Gslege优选 | us 【美国】 US | 104.16.0.2
+  server: 104.16.0.2
+  port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -2544,36 +2740,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: Gslege优选 | us 【美国】 US | 104.16.0.2
-  server: 104.16.0.2
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
   name: 天诚优选1 | 战争贩子 | US | 172.64.229.252:443
   server: 172.64.229.252
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
-  name: 优选IP4 | US | 03
-  server: 104.16.226.1
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -2614,8 +2782,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: Gslege优选 | us 【美国】 US | 104.16.0.4
-  server: 104.16.0.4
+  name: S5公益优选 | 战争贩子 | US | 104.168.202.51:443
+  server: 104.168.202.51
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -2628,8 +2796,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: S5公益优选 | 战争贩子 | US | 104.168.202.51:443
-  server: 104.168.202.51
+  name: Gslege优选 | us 【美国】 US | 104.16.0.4
+  server: 104.16.0.4
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -2656,9 +2824,37 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
+  name: Gslege优选 | us 【美国】 US | 104.17.0.5
+  server: 104.17.0.5
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
   name: S5公益优选 | 战争贩子 | US | 107.170.235.229:443
   server: 107.170.235.229
   port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: US-93.179.99.130:777
+  server: 93.179.99.130
+  port: 777
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -2686,6 +2882,20 @@ proxies:
 - type: vless
   name: Gslege优选 | us 【美国】 US | 104.17.0.4
   server: 104.17.0.4
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: Gslege优选 | us 【美国】 US | 104.19.0.7
+  server: 104.19.0.7
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -2726,20 +2936,6 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: Gslege优选 | us 【美国】 US | 104.17.0.5
-  server: 104.17.0.5
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
   name: S5公益优选 | 战争贩子 | US | 104.194.79.122:443
   server: 104.194.79.122
   port: 443
@@ -2754,8 +2950,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: 天诚优选1 | 战争贩子 | US | 172.64.229.111:443
-  server: 172.64.229.111
+  name: Gslege优选 | us 【美国】 US | 104.17.0.2
+  server: 104.17.0.2
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -2768,8 +2964,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: Gslege优选 | us 【美国】 US | 104.17.0.2
-  server: 104.17.0.2
+  name: US-47.77.237.245:443
+  server: 47.77.237.245
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -2810,9 +3006,37 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
+  name: 天诚优选1 | 战争贩子 | US | 172.64.229.111:443
+  server: 172.64.229.111
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
   name: S5公益优选 | 战争贩子 | US | 104.207.157.238:8443
   server: 104.207.157.238
   port: 8443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: 优选IP4 | US | 01
+  server: 104.16.104.138
+  port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -2838,8 +3062,22 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: Gslege优选 | us 【美国】 US | 104.19.0.7
-  server: 104.19.0.7
+  name: Gslege优选 | us 【美国】 US | 103.31.4.7
+  server: 103.31.4.7
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: SJC-US-3
+  server: 121.40.39.41
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -2880,8 +3118,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: Gslege优选 | us 【美国】 US | 103.31.4.7
-  server: 103.31.4.7
+  name: Gslege优选 | us 【美国】 US | 104.16.0.5
+  server: 104.16.0.5
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -2908,22 +3146,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: 优选IP4 | US | 01
-  server: 104.16.104.138
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
-  name: Gslege优选 | us 【美国】 US | 104.16.0.1
-  server: 104.16.0.1
+  name: 天诚优选1 | 战争贩子 | US | 172.64.229.175:443
+  server: 172.64.229.175
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -2950,22 +3174,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: 天诚优选1 | 战争贩子 | US | 172.64.229.175:443
-  server: 172.64.229.175
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
-  name: Gslege优选 | us 【美国】 US | 104.16.0.5
-  server: 104.16.0.5
+  name: Gslege优选 | us 【美国】 US | 104.16.0.1
+  server: 104.16.0.1
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -2992,9 +3202,9 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: S5公益优选 | 战争贩子 | US | 179.255.112.9:8443
-  server: 179.255.112.9
-  port: 8443
+  name: Gslege优选 | us 【美国】 US | 104.17.0.9
+  server: 104.17.0.9
+  port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -3006,9 +3216,9 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: S5公益优选 | 战争贩子 | US | 157.119.103.52:443
-  server: 157.119.103.52
-  port: 443
+  name: S5公益优选 | 战争贩子 | US | 179.255.112.9:8443
+  server: 179.255.112.9
+  port: 8443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -3034,8 +3244,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: S5公益优选 | 战争贩子 | US | 167.71.118.179:443
-  server: 167.71.118.179
+  name: 天诚优选1 | 战争贩子 | US | 172.64.229.167:443
+  server: 172.64.229.167
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -3048,8 +3258,22 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: 天诚优选1 | 战争贩子 | US | 172.64.229.167:443
-  server: 172.64.229.167
+  name: S5公益优选 | 战争贩子 | US | 157.119.103.52:443
+  server: 157.119.103.52
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: S5公益优选 | 战争贩子 | US | 167.71.118.179:443
+  server: 167.71.118.179
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -3090,8 +3314,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: Gslege优选 | us 【美国】 US | 104.17.0.9
-  server: 104.17.0.9
+  name: Gslege优选 | us 【美国】 US | 104.19.0.8
+  server: 104.19.0.8
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -3106,6 +3330,20 @@ proxies:
 - type: vless
   name: S5公益优选 | 战争贩子 | US | 143.198.76.78:443
   server: 143.198.76.78
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: Gslege优选 | us 【美国】 US | 104.16.0.6
+  server: 104.16.0.6
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -3134,6 +3372,20 @@ proxies:
 - type: vless
   name: 天诚优选1 | 战争贩子 | US | 38.207.132.249:443
   server: 38.207.132.249
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: 优选IP4 | US | 05
+  server: 104.16.206.156
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -3177,20 +3429,6 @@ proxies:
   name: S5公益优选 | 战争贩子 | US | 149.248.47.165:8443
   server: 149.248.47.165
   port: 8443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
-  name: Gslege优选 | us 【美国】 US | 104.16.0.6
-  server: 104.16.0.6
-  port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -3258,20 +3496,6 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: 优选IP4 | US | 05
-  server: 104.16.206.156
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
   name: S5公益优选 | 战争贩子 | US | 157.230.140.153:2096
   server: 157.230.140.153
   port: 2096
@@ -3300,6 +3524,20 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
+  name: IAD-US
+  server: 8.136.113.156
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
   name: S5公益优选 | 战争贩子 | US | 147.182.229.237:443
   server: 147.182.229.237
   port: 443
@@ -3314,8 +3552,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: Gslege优选 | us 【美国】 US | 104.19.0.8
-  server: 104.19.0.8
+  name: IAD-US-2
+  server: 47.99.164.61
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -3370,20 +3608,6 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: ICN-KR-2
-  server: 47.80.57.116
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
   name: S5公益优选 | 元首复活 | DE | 46.225.107.73:443
   server: 46.225.107.73
   port: 443
@@ -3412,9 +3636,9 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: S5公益优选 | 元首复活 | DE | 136.243.86.83:2053
-  server: 136.243.86.83
-  port: 2053
+  name: 天诚优选1 | 官方三网🐲™️【请勿测速】 | cloudflare.seeck.cn:443
+  server: cloudflare.seeck.cn
+  port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -3426,9 +3650,9 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: 天诚优选1 | 官方三网🐲™️【请勿测速】 | cloudflare.seeck.cn:443
-  server: cloudflare.seeck.cn
-  port: 443
+  name: DE-82.115.30.39:8443
+  server: 82.115.30.39
+  port: 8443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -3496,6 +3720,20 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
+  name: 洛璃优选 | 韩国 KR | 123.111.169.70:443
+  server: 123.111.169.70
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
   name: S5公益优选 | 元首复活 | DE | 178.104.42.177:443
   server: 178.104.42.177
   port: 443
@@ -3510,9 +3748,9 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: 洛璃优选 | 中国 CN | 109.66.88.118:8443
-  server: 109.66.88.118
-  port: 8443
+  name: CA-172.64.145.202:443
+  server: 172.64.145.202
+  port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -3552,9 +3790,51 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: 洛璃优选 | 10-04 03:32 | BestCF.pages.dev
-  server: 103.195.188.206
+  name: ID-172.232.236.252:443
+  server: 172.232.236.252
   port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: 优选IP4 | DE | 03
+  server: 104.20.61.43
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: 洛璃优选 | 拉脱维亚 LV | 195.123.209.7:8443
+  server: 195.123.209.7
+  port: 8443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: GB-98.98.142.53:20205
+  server: 98.98.142.53
+  port: 20205
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -3568,6 +3848,20 @@ proxies:
 - type: vless
   name: 天诚优选1 | 宝岛正妹 | TW | 151.242.189.162:443
   server: 151.242.189.162
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: KR-47.80.57.116:443
+  server: 47.80.57.116
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -3608,48 +3902,6 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: S5公益优选 | 元首复活 | DE | 185.117.250.122:443
-  server: 185.117.250.122
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
-  name: 优选IP4 | DE | 03
-  server: 104.20.61.43
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
-  name: S5公益优选 | 元首复活 | DE | 141.95.41.46:443
-  server: 141.95.41.46
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
   name: S5公益优选 | 🇱🇻 拉脱维亚 01 | 188.253.22.28:443
   server: 188.253.22.28
   port: 443
@@ -3664,36 +3916,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: DE-54.38.156.213:2096
-  server: 54.38.156.213
-  port: 2096
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
   name: S5公益优选 | 🇪🇪 爱沙尼亚 02 | 5.101.122.59:443
   server: 5.101.122.59
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
-  name: S5公益优选 | 元首复活 | DE | 130.17.10.20:443
-  server: 130.17.10.20
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -3720,8 +3944,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: 天诚优选1 | 分享免费优选网 BestCF.pages.dev
-  server: 162.159.197.1
+  name: 优选IP4 | DE | 01
+  server: 104.20.55.120
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -3762,8 +3986,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: 优选IP4 | DE | 01
-  server: 104.20.55.120
+  name: 天诚优选1 | 分享免费优选网 BestCF.pages.dev
+  server: 162.159.197.1
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -3790,9 +4014,9 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: S5公益优选 | 元首复活 | DE | 136.243.86.76:2053
-  server: 136.243.86.76
-  port: 2053
+  name: S5公益优选 | 元首复活 | DE | 162.248.164.71:443
+  server: 162.248.164.71
+  port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -3804,9 +4028,23 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: S5公益优选 | 元首复活 | DE | 162.248.164.71:443
-  server: 162.248.164.71
-  port: 443
+  name: SE-62.182.196.194:8443
+  server: 62.182.196.194
+  port: 8443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: DE-136.243.86.76:2053
+  server: 136.243.86.76
+  port: 2053
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -3846,8 +4084,22 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: FRA-DE-6
-  server: 31.25.88.11
+  name: DE-185.117.250.122:443
+  server: 185.117.250.122
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: 优选IP4 | DE | 05
+  server: 104.20.51.23
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -3863,6 +4115,48 @@ proxies:
   name: S5公益优选 | 元首复活 | DE | 130.17.13.244:8443
   server: 130.17.13.244
   port: 8443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: CA-104.17.60.177:443
+  server: 104.17.60.177
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: KR-61.78.173.61:12020
+  server: 61.78.173.61
+  port: 12020
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: GB-57.129.130.34:52014
+  server: 57.129.130.34
+  port: 52014
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -3972,9 +4266,9 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: S5公益优选 | 元首复活 | DE | 63.176.161.135:443
-  server: 63.176.161.135
-  port: 443
+  name: 洛璃优选 | 韩国 KR | 123.111.169.70:8443
+  server: 123.111.169.70
+  port: 8443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -4014,9 +4308,9 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: 洛璃优选 | 丹麦 DK | 193.181.211.119:8443
-  server: 193.181.211.119
-  port: 8443
+  name: KR-220.71.172.2:16034
+  server: 220.71.172.2
+  port: 16034
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -4070,34 +4364,6 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: 洛璃优选 | 哥伦比亚 CO | 43.174.194.1:443
-  server: 43.174.194.1
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
-  name: 优选IP4 | DE | 02
-  server: 104.20.48.252
-  port: 443
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
   name: S5公益优选 | 元首复活 | DE | 104.152.49.13:443
   server: 104.152.49.13
   port: 443
@@ -4126,8 +4392,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: 优选IP4 | DE | 05
-  server: 104.20.51.23
+  name: 天诚优选1 | 中国联通🐲™️【请勿测速】 | cucc.cloudflare.seeck.cn:443
+  server: cucc.cloudflare.seeck.cn
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -4140,8 +4406,8 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: 天诚优选1 | 中国联通🐲™️【请勿测速】 | cucc.cloudflare.seeck.cn:443
-  server: cucc.cloudflare.seeck.cn
+  name: DE-130.17.10.20:443
+  server: 130.17.10.20
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -4168,9 +4434,9 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: S5公益优选 | 元首复活 | DE | 130.17.13.88:8443
-  server: 130.17.13.88
-  port: 8443
+  name: 优选IP4 | DE | 02
+  server: 104.20.48.252
+  port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -4196,9 +4462,51 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
+  name: FRA-DE-4
+  server: 45.147.48.147
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: S5公益优选 | 元首复活 | DE | 130.17.13.88:8443
+  server: 130.17.13.88
+  port: 8443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
   name: S5公益优选 | 元首复活 | DE | 18.153.112.55:443
   server: 18.153.112.55
   port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: S5公益优选 | 元首复活 | DE | 141.11.187.33:8443
+  server: 141.11.187.33
+  port: 8443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -4238,9 +4546,9 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: S5公益优选 | 元首复活 | DE | 141.11.187.33:8443
-  server: 141.11.187.33
-  port: 8443
+  name: S5公益优选 | 元首复活 | DE | 128.140.73.159:443
+  server: 128.140.73.159
+  port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -4252,9 +4560,9 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: S5公益优选 | 元首复活 | DE | 128.140.73.159:443
-  server: 128.140.73.159
-  port: 443
+  name: AT-85.192.42.29:8444
+  server: 85.192.42.29
+  port: 8444
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -4322,20 +4630,6 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: FRA-DE-3
-  server: 185.217.108.168
-  port: 10985
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
   name: 天诚优选1 | 泡菜欧巴 | KR | 193.122.119.241:443
   server: 193.122.119.241
   port: 443
@@ -4350,8 +4644,22 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: FRA-DE-5
-  server: 45.147.48.147
+  name: CA-172.64.147.104:443
+  server: 172.64.147.104
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: CA-172.64.153.196:443
+  server: 172.64.153.196
   port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
@@ -4367,6 +4675,20 @@ proxies:
   name: 天诚优选1 | 泡菜欧巴 | KR | 146.56.135.196:443
   server: 146.56.135.196
   port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: AE-95.174.68.155:2083
+  server: 95.174.68.155
+  port: 2083
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -4406,7 +4728,21 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: S5公益优选 | 元首复活 | DE | 92.51.36.219:8443
+  name: DE-63.176.161.135:443
+  server: 63.176.161.135
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: DE-92.51.36.219:8443
   server: 92.51.36.219
   port: 8443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
@@ -4448,6 +4784,90 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
+  name: 天诚优选1 | 中国移动🐲™️【请勿测速】 | cmcc.cloudflare.seeck.cn:443
+  server: cmcc.cloudflare.seeck.cn
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: GB-98.98.142.58:20205
+  server: 98.98.142.58
+  port: 20205
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: CA-104.16.149.9:443
+  server: 104.16.149.9
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: DE-5.75.195.83:56879
+  server: 5.75.195.83
+  port: 56879
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: KR-123.111.169.70:2083
+  server: 123.111.169.70
+  port: 2083
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: 洛璃优选 | 10-04 04:32 | BestCF.pages.dev
+  server: 103.195.188.206
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
   name: S5公益优选 | 元首复活 | DE | 116.203.57.178:2096
   server: 116.203.57.178
   port: 2096
@@ -4476,9 +4896,9 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: S5公益优选 | 元首复活 | DE | 5.45.102.29:8443
-  server: 5.45.102.29
-  port: 8443
+  name: DE-31.25.88.11:443
+  server: 31.25.88.11
+  port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -4493,6 +4913,20 @@ proxies:
   name: 洛璃优选 | 阿联酋 AE | 156.154.245.83:443
   server: 156.154.245.83
   port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: S5公益优选 | 元首复活 | DE | 5.45.102.29:8443
+  server: 5.45.102.29
+  port: 8443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -4546,9 +4980,37 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
+  name: KR-43.108.37.107:443
+  server: 43.108.37.107
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: DE-136.243.86.83:2053
+  server: 136.243.86.83
+  port: 2053
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
   name: FRA-DE-2
-  server: 82.115.30.39
-  port: 8443
+  server: 185.217.108.168
+  port: 10985
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -4574,9 +5036,37 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
+  name: DE-141.95.41.46:443
+  server: 141.95.41.46
+  port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
   name: S5公益优选 | 元首复活 | DE | 13.140.28.247:443
   server: 13.140.28.247
   port: 443
+  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
+  tls: true
+  client-fingerprint: randomized
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    headers:
+      Host: abcde.abcde.nyc.mn
+    path: /?ed=2048
+  servername: abcde.abcde.nyc.mn
+- type: vless
+  name: 洛璃优选 | 韩国 KR | 123.111.169.70:2096
+  server: 123.111.169.70
+  port: 2096
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -4630,9 +5120,9 @@ proxies:
     path: /?ed=2048
   servername: abcde.abcde.nyc.mn
 - type: vless
-  name: DXB-AE
-  server: 95.174.68.155
-  port: 2083
+  name: TW-151.242.189.40:443
+  server: 151.242.189.40
+  port: 443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -4647,20 +5137,6 @@ proxies:
   name: 天诚优选1 | 泡菜欧巴 | KR | 123.111.169.70:2053
   server: 123.111.169.70
   port: 2053
-  uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
-  tls: true
-  client-fingerprint: randomized
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    headers:
-      Host: abcde.abcde.nyc.mn
-    path: /?ed=2048
-  servername: abcde.abcde.nyc.mn
-- type: vless
-  name: 洛璃优选 | 拉脱维亚 LV | 195.123.212.222:8443
-  server: 195.123.212.222
-  port: 8443
   uuid: b88a886d-d705-4aeb-8902-ccbd5e4d7e47
   tls: true
   client-fingerprint: randomized
@@ -4718,96 +5194,101 @@ proxy-groups:
   type: url-test
   proxies:
   - HKG-HK-10
-  - HKG-HK-19
   - HKG-HK-20
+  - HKG-HK-19
   - HKG-HK-12
   - 优选IP4 | HK | 02
+  - HKG-HK-29
+  - 洛璃优选 | 中国香港 HK | 68.64.182.79:443
   - 天诚优选1 | 港岛茶记 | HK | 39.109.50.142:443
   - S5公益优选 | 小日本儿 | JP | 172.237.7.216:443
   - 洛璃优选 | 小日本儿 JP | 108.61.183.45:443
   - HKG-HK-15
   - S5公益优选 | 印加坡县 | SG | 162.4.173.148:443
-  - HKG-HK-29
-  - 洛璃优选 | 小日本儿 JP | 45.63.124.130:443
+  - 洛璃优选 | 小日本儿 JP | 45.77.180.114:443
+  - HKG-HK-37
+  - HKG-HK-23
   - 天诚优选1 | 印加坡县 | SG | 165.232.175.180:443
   - 天诚优选1 | 小日本儿 | JP | 154.31.114.46:12632
-  - HKG-HK-24
   - S5公益优选 | 港岛茶记 | HK | 45.145.229.223:443
+  - HKG-HK-24
+  - 优选IP4 | HK | 04
+  - SG-54.179.79.12:53646
   - S5公益优选 | 印加坡县 | SG | 104.64.192.116:443
   - S5公益优选 | 印加坡县 | SG | 172.105.121.230:443
+  - HKG-HK-4
   - HKG-HK-9
   - NRT-JP-6
   - S5公益优选 | 小日本儿 | JP | 172.104.80.248:443
   - S5公益优选 | 小日本儿 | JP | 172.237.6.18:443
   - S5公益优选 | 港岛茶记 | HK | 167.148.203.71:443
+  - 优选IP4 | HK | 05
   - HKG-SG
-  - 天诚优选1 | 小日本儿 | JP | 141.11.138.218:443
   - S5公益优选 | 印加坡县 | SG | 139.162.41.109:443
-  - HKG-HK-8
   - 天诚优选1 | 印加坡县 | SG | 128.1.186.57:443
   - S5公益优选 | 印加坡县 | SG | 172.236.132.46:443
-  - HKG-HK
-  - 优选IP4 | HK | 04
-  - HKG-HK-23
+  - HKG-HK-27
+  - 洛璃优选 | 小日本儿 JP | 107.191.53.84:443
   - 天诚优选1 | 小日本儿 | JP | 45.32.49.254:443
+  - HKG-HK-8
+  - HKG-HK
+  - 洛璃优选 | 小日本儿 JP | 108.160.136.71:443
+  - 优选IP4 | HK | 03
   - S5公益优选 | 港岛茶记 | HK | 207.57.131.171:443
   - 天诚优选1 | 港岛茶记 | HK | 216.23.94.49:443
-  - S5公益优选 | 印加坡县 | SG | 43.160.220.86:443
   - S5公益优选 | 港岛茶记 | HK | 143.14.189.170:443
-  - HKG-HK-27
-  - HKG-HK-4
   - S5公益优选 | 港岛茶记 | HK | 38.207.177.113:443
   - S5公益优选 | 印加坡县 | SG | 13.212.126.228:443
   - HKG-HK-13
-  - 优选IP4 | HK | 05
+  - HKG-HK-7
   - 天诚优选1 | 小日本儿 | JP | 202.182.114.28:443
   - S5公益优选 | 小日本儿 | JP | 13.231.172.130:443
-  - HKG-HK-7
-  - 优选IP4 | HK | 03
-  - SIN-SG-5
-  - SIN-SG
   - S5公益优选 | 港岛茶记 | HK | 124.244.55.157:443
-  - 洛璃优选 | 新加坡 SG | 43.160.241.174:443
   - S5公益优选 | 港岛茶记 | HK | 103.143.81.178:443
   - S5公益优选 | 印加坡县 | SG | 172.104.49.9:443
   - S5公益优选 | 印加坡县 | SG | 172.104.60.181:8443
   - S5公益优选 | 港岛茶记 | HK | 45.136.14.153:443
   - S5公益优选 | 小日本儿 | JP | 172.237.5.239:443
-  - NRT-JP-7
   - S5公益优选 | 港岛茶记 | HK | 2.27.132.136:443
+  - NRT-JP-7
   - S5公益优选 | 小日本儿 | JP | 172.237.5.76:443
   - 洛璃优选 | 中国香港 HK | 43.168.16.112:443
   - S5公益优选 | 印加坡县 | SG | 43.134.104.39:8443
   - S5公益优选 | 港岛茶记 | HK | 45.152.64.16:443
   - S5公益优选 | 港岛茶记 | HK | 2.27.109.35:443
+  - 洛璃优选 | 中国香港 HK | 149.104.6.130:443
   - S5公益优选 | 小日本儿 | JP | 172.237.1.32:443
-  - S5公益优选 | 港岛茶记 | HK | 45.152.65.100:443
   - S5公益优选 | 港岛茶记 | HK | 207.57.123.31:443
+  - S5公益优选 | 港岛茶记 | HK | 45.152.65.100:443
   - S5公益优选 | 印加坡县 | SG | 89.34.227.105:2053
   - SIN-SG-4
   - S5公益优选 | 港岛茶记 | HK | 38.147.173.136:443
+  - HK-216.23.94.147:443
   - S5公益优选 | 印加坡县 | SG | 89.28.239.163:443
+  - HKG-HK-17
   - S5公益优选 | 印加坡县 | SG | 13.212.102.10:443
   - 天诚优选1 | 港岛茶记 | HK | 216.236.59.147:1891
   - S5公益优选 | 港岛茶记 | HK | 43.175.131.30:443
+  - JP-36.50.84.115:11704
   - S5公益优选 | 港岛茶记 | HK | 38.147.171.13:443
   - HKG-SG-2
   - S5公益优选 | 印加坡县 | SG | 172.237.81.164:443
   - 天诚优选1 | 港岛茶记 | HK | 82.22.31.122:443
+  - JP-47.79.35.185:443
   - NRT-JP-5
   - NRT-JP-4
   - 天诚优选1 | 小日本儿 | JP | 45.76.206.46:443
   - S5公益优选 | 印加坡县 | SG | 139.162.60.149:443
   - S5公益优选 | 印加坡县 | SG | 89.28.239.234:8443
   - S5公益优选 | 港岛茶记 | HK | 219.76.13.177:443
-  - HKG-HK-17
-  - S5公益优选 | 印加坡县 | SG | 185.115.207.149:443
-  - S5公益优选 | 印加坡县 | SG | 64.56.71.152:8443
   - HKG-HK-3
+  - S5公益优选 | 印加坡县 | SG | 185.115.207.149:443
+  - HKG-HK-31
+  - SG-13.212.19.68:56138
+  - S5公益优选 | 印加坡县 | SG | 64.56.71.152:8443
   - 天诚优选1 | 印加坡县 | SG | 152.42.254.219:443
   - S5公益优选 | 小日本儿 | JP | 126.78.133.130:443
   - 天诚优选1 | 印加坡县 | SG | 47.84.109.138:443
-  - S5公益优选 | 港岛茶记 | HK | 68.64.183.37:443
   - S5公益优选 | 港岛茶记 | HK | 207.57.134.29:443
   - S5公益优选 | 港岛茶记 | HK | 151.243.229.150:443
   - S5公益优选 | 小日本儿 | JP | 172.238.18.137:443
@@ -4816,183 +5297,199 @@ proxy-groups:
   - S5公益优选 | 小日本儿 | JP | 172.237.0.160:443
   - HKG-HK-11
   - S5公益优选 | 印加坡县 | SG | 64.56.71.152:443
+  - HKG-HK-21
+  - HKG-HK-22
   - S5公益优选 | 小日本儿 | JP | 45.192.206.31:8443
+  - HKG-HK-2
+  - 洛璃优选 | 小日本儿 JP | 45.32.56.242:443
   - S5公益优选 | 小日本儿 | JP | 45.192.206.151:443
   - S5公益优选 | 港岛茶记 | HK | 103.192.179.132:443
   - 天诚优选1 | 印加坡县 | SG | 174.138.27.228:443
-  - HKG-HK-2
-  - 洛璃优选 | 小日本儿 JP | 180.149.230.33:443
-  - HKG-HK-21
-  - S5公益优选 | 小日本儿 | JP | 172.104.120.92:443
+  - HKG-HK-30
+  - HKG-HK-25
+  - JP-38.47.110.42:443
+  - HKG-HK-5
   - HKG-HK-26
+  - S5公益优选 | 小日本儿 | JP | 172.104.120.92:443
+  - HK-27.50.48.8:443
   - 天诚优选1 | 印加坡县 | SG | 152.42.232.186:443
   - S5公益优选 | 小日本儿 | JP | 13.115.139.162:443
   - S5公益优选 | 印加坡县 | SG | 172.104.186.18:8443
-  - HKG-HK-22
-  - 洛璃优选 | 新加坡 SG | 20.6.12.145:443
+  - 洛璃优选 | 小日本儿 JP | 108.61.160.16:443
   - S5公益优选 | 印加坡县 | SG | 172.237.81.42:443
-  - HKG-HK-6
-  - 洛璃优选 | 小日本儿 JP | 198.13.45.210:443
-  - HKG-HK-30
+  - HK-27.50.48.4:443
+  - 洛璃优选 | 小日本儿 JP | 45.76.208.253:443
   - SIN-SG-3
-  - HKG-HK-5
+  - JP-43.170.8.95:443
+  - HKG-HK-16
+  - HKG-HK-6
   - 天诚优选1 | 印加坡县 | SG | 23.249.27.136:23333
+  - HKG-HK-14
   - SG [高速 by Jz 20M]
-  - 天诚优选1 | 小日本儿 | JP | 108.61.163.117:443
-  - SIN-SG-2
+  - JP-47.79.147.53:443
+  - HKG-HK-18
   - HKG-HK-28
+  - 天诚优选1 | 小日本儿 | JP | 108.61.163.117:443
+  - 优选IP4 | HK | 01
+  - SIN-SG-2
   - S5公益优选 | 小日本儿 | JP | 13.158.39.80:443
   - S5公益优选 | 印加坡县 | SG | 139.162.33.165:443
-  - S5公益优选 | 小日本儿 | JP | 131.143.215.40:443
-  - HKG-HK-16
+  - SG-43.160.241.174:443
   - 洛璃优选 | 小日本儿 JP | 45.77.130.6:443
-  - HKG-HK-25
   - S5公益优选 | 港岛茶记 | HK | 38.207.177.204:443
-  - S5公益优选 | 印加坡县 | SG | 139.162.17.105:443
   - 洛璃优选 | 中国香港 HK | 43.254.216.175:8443
+  - S5公益优选 | 印加坡县 | SG | 139.162.17.105:443
   - 天诚优选1 | 港岛茶记 | HK | 119.45.225.117:8443
-  - 优选IP4 | HK | 01
   - S5公益优选 | 小日本儿 | JP | 45.94.40.102:443
   - S5公益优选 | 印加坡县 | SG | 139.162.40.240:443
-  - HKG-HK-14
+  - 洛璃优选 | 小日本儿 JP | 198.13.33.123:443
   - S5公益优选 | 小日本儿 | JP | 172.104.77.231:443
   - S5公益优选 | 印加坡县 | SG | 85.149.211.28:8443
   - S5公益优选 | 港岛茶记 | HK | 207.57.135.199:8443
   - S5公益优选 | 港岛茶记 | HK | 2.27.109.236:443
   - HK [高速 by Jz 34M]
-  - HKG-HK-18
   - S5公益优选 | 印加坡县 | SG | 139.162.44.222:443
+  - 洛璃优选 | 新加坡 SG | 15.235.212.159:8443
   - S5公益优选 | 小日本儿 | JP | 172.104.81.253:443
-  - JP [高速 by Jz 28M]
   - S5公益优选 | 印加坡县 | SG | 172.236.140.241:443
+  - JP [高速 by Jz 28M]
   - S5公益优选 | 小日本儿 | JP | 61.124.1.97:443
-  - HK-85.121.245.35:443
-  - S5公益优选 | 小日本儿 | JP | 172.237.6.212:443
+  - 洛璃优选 | 新加坡 SG | 82.109.96.42:443
   - S5公益优选 | 印加坡县 | SG | 185.115.207.102:443
+  - S5公益优选 | 小日本儿 | JP | 172.237.6.212:443
   - S5公益优选 | 小日本儿 | JP | 18.180.86.39:443
+  - JP-216.23.123.64:30718
   - S5公益优选 | 印加坡县 | SG | 139.162.61.198:443
-  - 洛璃优选 | 新加坡 SG | 162.128.72.114:443
-  - 洛璃优选 | 小日本儿 JP | 45.76.216.24:443
-  - 洛璃优选 | 小日本儿 JP | 207.148.115.152:443
   - S5公益优选 | 港岛茶记 | HK | 2.27.109.62:443
-  - HKG-HK-36
   - S5公益优选 | 印加坡县 | SG | 172.104.59.228:8443
   - S5公益优选 | 小日本儿 | JP | 109.107.140.90:443
   - 优选IP4 | US | 04
-  - 天诚优选1 | 战争贩子 | US | 172.64.229.144:443
-  - 天诚优选1 | 战争贩子 | US | 172.64.229.219:443
-  - Gslege优选 | us 【美国】 US | 103.31.4.3
   - Gslege优选 | us 【美国】 US | 104.17.0.3
   - Gslege优选 | us 【美国】 US | 104.18.0.1
-  - 优选IP4 | US | 02
-  - 天诚优选1 | 战争贩子 | US | 172.64.229.2:443
-  - S5公益优选 | 战争贩子 | US | 162.243.131.126:443
-  - S5公益优选 | 战争贩子 | US | 137.184.11.137:443
-  - S5公益优选 | 战争贩子 | US | 170.106.74.35:443
+  - 天诚优选1 | 战争贩子 | US | 172.64.229.144:443
   - Gslege优选 | us 【美国】 US | 104.17.0.8
-  - S5公益优选 | 战争贩子 | US | 143.110.131.126:443
+  - 优选IP4 | US | 02
+  - Gslege优选 | us 【美国】 US | 103.31.4.3
+  - 天诚优选1 | 战争贩子 | US | 172.64.229.219:443
+  - US-47.88.15.89:443
+  - 天诚优选1 | 战争贩子 | US | 172.64.229.2:443
+  - S5公益优选 | 战争贩子 | US | 137.184.11.137:443
+  - S5公益优选 | 战争贩子 | US | 162.243.131.126:443
+  - US-47.77.210.148:443
   - 天诚优选1 | 战争贩子 | US | 172.64.229.97:443
+  - US-47.77.201.227:443
+  - S5公益优选 | 战争贩子 | US | 170.106.74.35:443
+  - S5公益优选 | 战争贩子 | US | 143.110.131.126:443
   - 天诚优选1 | 战争贩子 | US | 172.64.229.240:443
   - S5公益优选 | 战争贩子 | US | 107.170.240.26:443
+  - 优选IP4 | US | 03
   - S5公益优选 | 战争贩子 | US | 157.245.178.181:2083
   - S5公益优选 | 战争贩子 | US | 103.91.219.6:8443
+  - Gslege优选 | us 【美国】 US | 104.16.0.2
   - S5公益优选 | 战争贩子 | US | 104.129.183.226:443
   - SJC-US
-  - Gslege优选 | us 【美国】 US | 104.16.0.2
   - 天诚优选1 | 战争贩子 | US | 172.64.229.252:443
-  - 优选IP4 | US | 03
   - S5公益优选 | 战争贩子 | US | 179.255.124.207:8443
   - S5公益优选 | 战争贩子 | US | 104.248.208.69:8443
-  - Gslege优选 | us 【美国】 US | 104.16.0.4
   - S5公益优选 | 战争贩子 | US | 104.168.202.51:443
+  - Gslege优选 | us 【美国】 US | 104.16.0.4
   - S5公益优选 | 战争贩子 | US | 20.120.129.200:443
+  - Gslege优选 | us 【美国】 US | 104.17.0.5
   - S5公益优选 | 战争贩子 | US | 107.170.235.229:443
+  - US-93.179.99.130:777
   - S5公益优选 | 战争贩子 | US | 154.29.150.87:443
   - Gslege优选 | us 【美国】 US | 104.17.0.4
+  - Gslege优选 | us 【美国】 US | 104.19.0.7
   - Gslege优选 | us 【美国】 US | 104.16.0.9
   - Gslege优选 | us 【美国】 US | 104.19.0.5
-  - Gslege优选 | us 【美国】 US | 104.17.0.5
   - S5公益优选 | 战争贩子 | US | 104.194.79.122:443
-  - 天诚优选1 | 战争贩子 | US | 172.64.229.111:443
   - Gslege优选 | us 【美国】 US | 104.17.0.2
+  - US-47.77.237.245:443
   - Gslege优选 | us 【美国】 US | 103.31.4.5
   - Gslege优选 | us 【美国】 US | 104.18.0.2
+  - 天诚优选1 | 战争贩子 | US | 172.64.229.111:443
   - S5公益优选 | 战争贩子 | US | 104.207.157.238:8443
+  - 优选IP4 | US | 01
   - S5公益优选 | 战争贩子 | US | 104.236.186.204:443
-  - Gslege优选 | us 【美国】 US | 104.19.0.7
+  - Gslege优选 | us 【美国】 US | 103.31.4.7
+  - SJC-US-3
   - S5公益优选 | 战争贩子 | US | 143.198.106.68:443
   - S5公益优选 | 战争贩子 | US | 143.198.97.84:443
-  - Gslege优选 | us 【美国】 US | 103.31.4.7
-  - S5公益优选 | 战争贩子 | US | 179.255.152.1:443
-  - 优选IP4 | US | 01
-  - Gslege优选 | us 【美国】 US | 104.16.0.1
-  - S5公益优选 | 战争贩子 | US | 104.156.252.234:8443
-  - 天诚优选1 | 战争贩子 | US | 172.64.229.175:443
   - Gslege优选 | us 【美国】 US | 104.16.0.5
+  - S5公益优选 | 战争贩子 | US | 179.255.152.1:443
+  - 天诚优选1 | 战争贩子 | US | 172.64.229.175:443
+  - S5公益优选 | 战争贩子 | US | 104.156.252.234:8443
+  - Gslege优选 | us 【美国】 US | 104.16.0.1
   - S5公益优选 | 战争贩子 | US | 129.159.37.136:443
+  - Gslege优选 | us 【美国】 US | 104.17.0.9
   - S5公益优选 | 战争贩子 | US | 179.255.112.9:8443
-  - S5公益优选 | 战争贩子 | US | 157.119.103.52:443
   - S5公益优选 | 战争贩子 | US | 156.232.13.254:443
-  - S5公益优选 | 战争贩子 | US | 167.71.118.179:443
   - 天诚优选1 | 战争贩子 | US | 172.64.229.167:443
+  - S5公益优选 | 战争贩子 | US | 157.119.103.52:443
+  - S5公益优选 | 战争贩子 | US | 167.71.118.179:443
   - S5公益优选 | 战争贩子 | US | 143.110.133.216:8443
   - S5公益优选 | 战争贩子 | US | 156.225.64.67:443
-  - Gslege优选 | us 【美国】 US | 104.17.0.9
+  - Gslege优选 | us 【美国】 US | 104.19.0.8
   - S5公益优选 | 战争贩子 | US | 143.198.76.78:443
+  - Gslege优选 | us 【美国】 US | 104.16.0.6
   - S5公益优选 | 战争贩子 | US | 144.225.130.58:443
   - 天诚优选1 | 战争贩子 | US | 38.207.132.249:443
+  - 优选IP4 | US | 05
   - S5公益优选 | 战争贩子 | US | 104.248.208.69:443
   - S5公益优选 | 战争贩子 | US | 157.230.140.153:2087
   - S5公益优选 | 战争贩子 | US | 149.248.47.165:8443
-  - Gslege优选 | us 【美国】 US | 104.16.0.6
   - SJC-US-2
   - LAX-US-4
   - S5公益优选 | 战争贩子 | US | 104.248.208.69:2096
   - S5公益优选 | 战争贩子 | US | 107.170.246.220:443
-  - 优选IP4 | US | 05
   - S5公益优选 | 战争贩子 | US | 157.230.140.153:2096
   - S5公益优选 | 战争贩子 | US | 137.220.42.121:443
+  - IAD-US
   - S5公益优选 | 战争贩子 | US | 147.182.229.237:443
-  - Gslege优选 | us 【美国】 US | 104.19.0.8
+  - IAD-US-2
   - S5公益优选 | 战争贩子 | US | 162.243.148.170:443
   - S5公益优选 | 战争贩子 | US | 157.230.140.153:2053
   - 优选IP4 | DE | 04
-  - ICN-KR-2
   - S5公益优选 | 元首复活 | DE | 46.225.107.73:443
   - S5公益优选 | 元首复活 | DE | 130.17.12.35:443
-  - S5公益优选 | 元首复活 | DE | 136.243.86.83:2053
   - 天诚优选1 | 官方三网🐲™️【请勿测速】 | cloudflare.seeck.cn:443
+  - DE-82.115.30.39:8443
   - S5公益优选 | 🇪🇸 西班牙 02 | 162.141.93.191:8443
   - S5公益优选 | 元首复活 | DE | 178.105.108.239:443
   - 天诚优选1 | 中国电信🐲™️【请勿测速】 | ctcc.cloudflare.seeck.cn:443
   - 天诚优选1 HK版 | 10-04 03:36 | BestCF.pages.dev
+  - 洛璃优选 | 韩国 KR | 123.111.169.70:443
   - S5公益优选 | 元首复活 | DE | 178.104.42.177:443
-  - 洛璃优选 | 中国 CN | 109.66.88.118:8443
+  - CA-172.64.145.202:443
   - 天诚优选1 | 泡菜欧巴 | KR | 123.111.169.70:2087
   - S5公益优选 | 元首复活 | DE | 178.105.86.239:2053
-  - 洛璃优选 | 10-04 03:32 | BestCF.pages.dev
+  - ID-172.232.236.252:443
+  - 优选IP4 | DE | 03
+  - 洛璃优选 | 拉脱维亚 LV | 195.123.209.7:8443
+  - GB-98.98.142.53:20205
   - 天诚优选1 | 宝岛正妹 | TW | 151.242.189.162:443
+  - KR-47.80.57.116:443
   - S5公益优选 | 元首复活 | DE | 130.17.27.116:2053
   - S5公益优选 | 元首复活 | DE | 116.202.187.28:8443
-  - S5公益优选 | 元首复活 | DE | 185.117.250.122:443
-  - 优选IP4 | DE | 03
-  - S5公益优选 | 元首复活 | DE | 141.95.41.46:443
   - S5公益优选 | 🇱🇻 拉脱维亚 01 | 188.253.22.28:443
-  - DE-54.38.156.213:2096
   - S5公益优选 | 🇪🇪 爱沙尼亚 02 | 5.101.122.59:443
-  - S5公益优选 | 元首复活 | DE | 130.17.10.20:443
   - S5公益优选 | 🇪🇪 爱沙尼亚 01 | 144.31.170.4:443
-  - 天诚优选1 | 分享免费优选网 BestCF.pages.dev
+  - 优选IP4 | DE | 01
   - 洛璃优选 | 韩国 KR | 152.67.198.36:443
   - 天诚优选1 | 泡菜欧巴 | KR | 193.122.96.190:443
-  - 优选IP4 | DE | 01
+  - 天诚优选1 | 分享免费优选网 BestCF.pages.dev
   - EE-5.45.117.125:443
-  - S5公益优选 | 元首复活 | DE | 136.243.86.76:2053
   - S5公益优选 | 元首复活 | DE | 162.248.164.71:443
+  - SE-62.182.196.194:8443
+  - DE-136.243.86.76:2053
   - 天诚优选1 | 泡菜欧巴 | KR | 146.56.151.92:443
   - S5公益优选 | 元首复活 | DE | 104.152.49.87:443
-  - FRA-DE-6
+  - DE-185.117.250.122:443
+  - 优选IP4 | DE | 05
   - S5公益优选 | 元首复活 | DE | 130.17.13.244:8443
+  - CA-104.17.60.177:443
+  - KR-61.78.173.61:12020
+  - GB-57.129.130.34:52014
   - S5公益优选 | 烤肉火鸡 | TR | 104.239.87.51:443
   - EE-5.45.119.170:8443
   - S5公益优选 | 🇱🇻 拉脱维亚 04 | 46.8.237.3:443
@@ -5000,56 +5497,69 @@ proxy-groups:
   - S5公益优选 | 元首复活 | DE | 13.140.28.46:443
   - S5公益优选 | 元首复活 | DE | 202.61.250.230:443
   - 天诚优选1 | 泡菜欧巴 | KR | 131.186.26.94:443
-  - S5公益优选 | 元首复活 | DE | 63.176.161.135:443
+  - 洛璃优选 | 韩国 KR | 123.111.169.70:8443
   - S5公益优选 | 🇪🇸 西班牙 01 | 141.227.188.153:443
   - S5公益优选 | 元首复活 | DE | 130.17.4.60:443
-  - 洛璃优选 | 丹麦 DK | 193.181.211.119:8443
+  - KR-220.71.172.2:16034
   - EE-5.189.254.168:2053
   - S5公益优选 | 元首复活 | DE | 136.243.86.75:2053
   - S5公益优选 | 元首复活 | DE | 116.202.8.39:443
-  - 洛璃优选 | 哥伦比亚 CO | 43.174.194.1:443
-  - 优选IP4 | DE | 02
   - S5公益优选 | 元首复活 | DE | 104.152.49.13:443
   - S5公益优选 | 元首复活 | DE | 136.243.86.91:2053
-  - 优选IP4 | DE | 05
   - 天诚优选1 | 中国联通🐲™️【请勿测速】 | cucc.cloudflare.seeck.cn:443
+  - DE-130.17.10.20:443
   - S5公益优选 | 元首复活 | DE | 130.17.20.4:8443
-  - S5公益优选 | 元首复活 | DE | 130.17.13.88:8443
+  - 优选IP4 | DE | 02
   - S5公益优选 | 🇨🇿 捷克 03 | 193.124.58.61:443
+  - FRA-DE-4
+  - S5公益优选 | 元首复活 | DE | 130.17.13.88:8443
   - S5公益优选 | 元首复活 | DE | 18.153.112.55:443
+  - S5公益优选 | 元首复活 | DE | 141.11.187.33:8443
   - SYD-AU
   - S5公益优选 | 🇱🇻 拉脱维亚 02 | 216.173.68.133:2087
-  - S5公益优选 | 元首复活 | DE | 141.11.187.33:8443
   - S5公益优选 | 元首复活 | DE | 128.140.73.159:443
+  - AT-85.192.42.29:8444
   - S5公益优选 | 元首复活 | DE | 116.203.58.165:443
   - S5公益优选 | 元首复活 | DE | 130.17.10.144:8443
   - S5公益优选 | 元首复活 | DE | 178.104.190.133:2083
   - 洛璃优选 | 韩国 KR | 130.94.29.155:443
-  - FRA-DE-3
   - 天诚优选1 | 泡菜欧巴 | KR | 193.122.119.241:443
-  - FRA-DE-5
+  - CA-172.64.147.104:443
+  - CA-172.64.153.196:443
   - 天诚优选1 | 泡菜欧巴 | KR | 146.56.135.196:443
+  - AE-95.174.68.155:2083
   - S5公益优选 | 元首复活 | DE | 130.17.21.173:8443
   - TPE-TW
-  - S5公益优选 | 元首复活 | DE | 92.51.36.219:8443
+  - DE-63.176.161.135:443
+  - DE-92.51.36.219:8443
   - S5公益优选 | 元首复活 | DE | 162.248.164.35:2083
   - 天诚优选1 | 泡菜欧巴 | KR | 131.186.16.166:443
+  - 天诚优选1 | 中国移动🐲™️【请勿测速】 | cmcc.cloudflare.seeck.cn:443
+  - GB-98.98.142.58:20205
+  - CA-104.16.149.9:443
+  - DE-5.75.195.83:56879
+  - KR-123.111.169.70:2083
+  - 洛璃优选 | 10-04 04:32 | BestCF.pages.dev
   - S5公益优选 | 元首复活 | DE | 116.203.57.178:2096
   - 洛璃优选 | 韩国 KR | 110.10.178.240:443
-  - S5公益优选 | 元首复活 | DE | 5.45.102.29:8443
+  - DE-31.25.88.11:443
   - 洛璃优选 | 阿联酋 AE | 156.154.245.83:443
+  - S5公益优选 | 元首复活 | DE | 5.45.102.29:8443
   - S5公益优选 | 宝岛正妹 | TW | 23.146.248.149:443
   - MAA-IN
   - 天诚优选1 | 泡菜欧巴 | KR | 64.110.70.64:443
+  - KR-43.108.37.107:443
+  - DE-136.243.86.83:2053
   - FRA-DE-2
   - S5公益优选 | 元首复活 | DE | 57.131.143.10:2096
+  - DE-141.95.41.46:443
   - S5公益优选 | 元首复活 | DE | 13.140.28.247:443
+  - 洛璃优选 | 韩国 KR | 123.111.169.70:2096
   - S5公益优选 | 🇨🇿 捷克 01 | 195.123.244.230:443
   - S5公益优选 | 元首复活 | DE | 136.243.86.74:2053
   - 天诚优选1 | 泡菜欧巴 | KR | 130.162.137.247:443
-  - DXB-AE
+  - TW-151.242.189.40:443
   - 天诚优选1 | 泡菜欧巴 | KR | 123.111.169.70:2053
-  - 洛璃优选 | 拉脱维亚 LV | 195.123.212.222:8443
   - S5公益优选 | 🇨🇿 捷克 02 | 141.133.174.59:443
   - S5公益优选 | 元首复活 | DE | 130.17.6.46:8443
   - S5公益优选 | 🇱🇻 拉脱维亚 03 | 216.173.68.33:443
@@ -5059,32 +5569,34 @@ proxy-groups:
   type: url-test
   proxies:
   - HKG-HK-10
-  - HKG-HK-19
   - HKG-HK-20
+  - HKG-HK-19
   - HKG-HK-12
   - 优选IP4 | HK | 02
+  - HKG-HK-29
+  - 洛璃优选 | 中国香港 HK | 68.64.182.79:443
   - 天诚优选1 | 港岛茶记 | HK | 39.109.50.142:443
   - HKG-HK-15
-  - HKG-HK-29
-  - HKG-HK-24
+  - HKG-HK-37
+  - HKG-HK-23
   - S5公益优选 | 港岛茶记 | HK | 45.145.229.223:443
+  - HKG-HK-24
+  - 优选IP4 | HK | 04
+  - HKG-HK-4
   - HKG-HK-9
   - S5公益优选 | 港岛茶记 | HK | 167.148.203.71:443
+  - 优选IP4 | HK | 05
   - HKG-SG
+  - HKG-HK-27
   - HKG-HK-8
   - HKG-HK
-  - 优选IP4 | HK | 04
-  - HKG-HK-23
+  - 优选IP4 | HK | 03
   - S5公益优选 | 港岛茶记 | HK | 207.57.131.171:443
   - 天诚优选1 | 港岛茶记 | HK | 216.23.94.49:443
   - S5公益优选 | 港岛茶记 | HK | 143.14.189.170:443
-  - HKG-HK-27
-  - HKG-HK-4
   - S5公益优选 | 港岛茶记 | HK | 38.207.177.113:443
   - HKG-HK-13
-  - 优选IP4 | HK | 05
   - HKG-HK-7
-  - 优选IP4 | HK | 03
   - S5公益优选 | 港岛茶记 | HK | 124.244.55.157:443
   - S5公益优选 | 港岛茶记 | HK | 103.143.81.178:443
   - S5公益优选 | 港岛茶记 | HK | 45.136.14.153:443
@@ -5092,44 +5604,46 @@ proxy-groups:
   - 洛璃优选 | 中国香港 HK | 43.168.16.112:443
   - S5公益优选 | 港岛茶记 | HK | 45.152.64.16:443
   - S5公益优选 | 港岛茶记 | HK | 2.27.109.35:443
-  - S5公益优选 | 港岛茶记 | HK | 45.152.65.100:443
+  - 洛璃优选 | 中国香港 HK | 149.104.6.130:443
   - S5公益优选 | 港岛茶记 | HK | 207.57.123.31:443
+  - S5公益优选 | 港岛茶记 | HK | 45.152.65.100:443
   - S5公益优选 | 港岛茶记 | HK | 38.147.173.136:443
+  - HK-216.23.94.147:443
+  - HKG-HK-17
   - 天诚优选1 | 港岛茶记 | HK | 216.236.59.147:1891
   - S5公益优选 | 港岛茶记 | HK | 43.175.131.30:443
   - S5公益优选 | 港岛茶记 | HK | 38.147.171.13:443
   - HKG-SG-2
   - 天诚优选1 | 港岛茶记 | HK | 82.22.31.122:443
   - S5公益优选 | 港岛茶记 | HK | 219.76.13.177:443
-  - HKG-HK-17
   - HKG-HK-3
-  - S5公益优选 | 港岛茶记 | HK | 68.64.183.37:443
+  - HKG-HK-31
   - S5公益优选 | 港岛茶记 | HK | 207.57.134.29:443
   - S5公益优选 | 港岛茶记 | HK | 151.243.229.150:443
   - HKG-HK-11
-  - S5公益优选 | 港岛茶记 | HK | 103.192.179.132:443
-  - HKG-HK-2
   - HKG-HK-21
-  - HKG-HK-26
   - HKG-HK-22
-  - HKG-HK-6
+  - HKG-HK-2
+  - S5公益优选 | 港岛茶记 | HK | 103.192.179.132:443
   - HKG-HK-30
-  - HKG-HK-5
-  - HKG-HK-28
-  - HKG-HK-16
   - HKG-HK-25
+  - HKG-HK-5
+  - HKG-HK-26
+  - HK-27.50.48.8:443
+  - HK-27.50.48.4:443
+  - HKG-HK-16
+  - HKG-HK-6
+  - HKG-HK-14
+  - HKG-HK-18
+  - HKG-HK-28
+  - 优选IP4 | HK | 01
   - S5公益优选 | 港岛茶记 | HK | 38.207.177.204:443
   - 洛璃优选 | 中国香港 HK | 43.254.216.175:8443
   - 天诚优选1 | 港岛茶记 | HK | 119.45.225.117:8443
-  - 优选IP4 | HK | 01
-  - HKG-HK-14
   - S5公益优选 | 港岛茶记 | HK | 207.57.135.199:8443
   - S5公益优选 | 港岛茶记 | HK | 2.27.109.236:443
   - HK [高速 by Jz 34M]
-  - HKG-HK-18
-  - HK-85.121.245.35:443
   - S5公益优选 | 港岛茶记 | HK | 2.27.109.62:443
-  - HKG-HK-36
   url: http://captive.apple.com/hotspot-detect.html
   interval: 120
 - name: JP-POOL
@@ -5137,19 +5651,22 @@ proxy-groups:
   proxies:
   - S5公益优选 | 小日本儿 | JP | 172.237.7.216:443
   - 洛璃优选 | 小日本儿 JP | 108.61.183.45:443
-  - 洛璃优选 | 小日本儿 JP | 45.63.124.130:443
+  - 洛璃优选 | 小日本儿 JP | 45.77.180.114:443
   - 天诚优选1 | 小日本儿 | JP | 154.31.114.46:12632
   - NRT-JP-6
   - S5公益优选 | 小日本儿 | JP | 172.104.80.248:443
   - S5公益优选 | 小日本儿 | JP | 172.237.6.18:443
-  - 天诚优选1 | 小日本儿 | JP | 141.11.138.218:443
+  - 洛璃优选 | 小日本儿 JP | 107.191.53.84:443
   - 天诚优选1 | 小日本儿 | JP | 45.32.49.254:443
+  - 洛璃优选 | 小日本儿 JP | 108.160.136.71:443
   - 天诚优选1 | 小日本儿 | JP | 202.182.114.28:443
   - S5公益优选 | 小日本儿 | JP | 13.231.172.130:443
   - S5公益优选 | 小日本儿 | JP | 172.237.5.239:443
   - NRT-JP-7
   - S5公益优选 | 小日本儿 | JP | 172.237.5.76:443
   - S5公益优选 | 小日本儿 | JP | 172.237.1.32:443
+  - JP-36.50.84.115:11704
+  - JP-47.79.35.185:443
   - NRT-JP-5
   - NRT-JP-4
   - 天诚优选1 | 小日本儿 | JP | 45.76.206.46:443
@@ -5159,24 +5676,27 @@ proxy-groups:
   - S5公益优选 | 小日本儿 | JP | 137.220.225.56:443
   - S5公益优选 | 小日本儿 | JP | 172.237.0.160:443
   - S5公益优选 | 小日本儿 | JP | 45.192.206.31:8443
+  - 洛璃优选 | 小日本儿 JP | 45.32.56.242:443
   - S5公益优选 | 小日本儿 | JP | 45.192.206.151:443
-  - 洛璃优选 | 小日本儿 JP | 180.149.230.33:443
+  - JP-38.47.110.42:443
   - S5公益优选 | 小日本儿 | JP | 172.104.120.92:443
   - S5公益优选 | 小日本儿 | JP | 13.115.139.162:443
-  - 洛璃优选 | 小日本儿 JP | 198.13.45.210:443
+  - 洛璃优选 | 小日本儿 JP | 108.61.160.16:443
+  - 洛璃优选 | 小日本儿 JP | 45.76.208.253:443
+  - JP-43.170.8.95:443
+  - JP-47.79.147.53:443
   - 天诚优选1 | 小日本儿 | JP | 108.61.163.117:443
   - S5公益优选 | 小日本儿 | JP | 13.158.39.80:443
-  - S5公益优选 | 小日本儿 | JP | 131.143.215.40:443
   - 洛璃优选 | 小日本儿 JP | 45.77.130.6:443
   - S5公益优选 | 小日本儿 | JP | 45.94.40.102:443
+  - 洛璃优选 | 小日本儿 JP | 198.13.33.123:443
   - S5公益优选 | 小日本儿 | JP | 172.104.77.231:443
   - S5公益优选 | 小日本儿 | JP | 172.104.81.253:443
   - JP [高速 by Jz 28M]
   - S5公益优选 | 小日本儿 | JP | 61.124.1.97:443
   - S5公益优选 | 小日本儿 | JP | 172.237.6.212:443
   - S5公益优选 | 小日本儿 | JP | 18.180.86.39:443
-  - 洛璃优选 | 小日本儿 JP | 45.76.216.24:443
-  - 洛璃优选 | 小日本儿 JP | 207.148.115.152:443
+  - JP-216.23.123.64:30718
   - S5公益优选 | 小日本儿 | JP | 109.107.140.90:443
   url: http://captive.apple.com/hotspot-detect.html
   interval: 120
@@ -5184,81 +5704,89 @@ proxy-groups:
   type: url-test
   proxies:
   - 优选IP4 | US | 04
-  - 天诚优选1 | 战争贩子 | US | 172.64.229.144:443
-  - 天诚优选1 | 战争贩子 | US | 172.64.229.219:443
-  - Gslege优选 | us 【美国】 US | 103.31.4.3
   - Gslege优选 | us 【美国】 US | 104.17.0.3
   - Gslege优选 | us 【美国】 US | 104.18.0.1
-  - 优选IP4 | US | 02
-  - 天诚优选1 | 战争贩子 | US | 172.64.229.2:443
-  - S5公益优选 | 战争贩子 | US | 162.243.131.126:443
-  - S5公益优选 | 战争贩子 | US | 137.184.11.137:443
-  - S5公益优选 | 战争贩子 | US | 170.106.74.35:443
+  - 天诚优选1 | 战争贩子 | US | 172.64.229.144:443
   - Gslege优选 | us 【美国】 US | 104.17.0.8
-  - S5公益优选 | 战争贩子 | US | 143.110.131.126:443
+  - 优选IP4 | US | 02
+  - Gslege优选 | us 【美国】 US | 103.31.4.3
+  - 天诚优选1 | 战争贩子 | US | 172.64.229.219:443
+  - US-47.88.15.89:443
+  - 天诚优选1 | 战争贩子 | US | 172.64.229.2:443
+  - S5公益优选 | 战争贩子 | US | 137.184.11.137:443
+  - S5公益优选 | 战争贩子 | US | 162.243.131.126:443
+  - US-47.77.210.148:443
   - 天诚优选1 | 战争贩子 | US | 172.64.229.97:443
+  - US-47.77.201.227:443
+  - S5公益优选 | 战争贩子 | US | 170.106.74.35:443
+  - S5公益优选 | 战争贩子 | US | 143.110.131.126:443
   - 天诚优选1 | 战争贩子 | US | 172.64.229.240:443
   - S5公益优选 | 战争贩子 | US | 107.170.240.26:443
+  - 优选IP4 | US | 03
   - S5公益优选 | 战争贩子 | US | 157.245.178.181:2083
   - S5公益优选 | 战争贩子 | US | 103.91.219.6:8443
+  - Gslege优选 | us 【美国】 US | 104.16.0.2
   - S5公益优选 | 战争贩子 | US | 104.129.183.226:443
   - SJC-US
-  - Gslege优选 | us 【美国】 US | 104.16.0.2
   - 天诚优选1 | 战争贩子 | US | 172.64.229.252:443
-  - 优选IP4 | US | 03
   - S5公益优选 | 战争贩子 | US | 179.255.124.207:8443
   - S5公益优选 | 战争贩子 | US | 104.248.208.69:8443
-  - Gslege优选 | us 【美国】 US | 104.16.0.4
   - S5公益优选 | 战争贩子 | US | 104.168.202.51:443
+  - Gslege优选 | us 【美国】 US | 104.16.0.4
   - S5公益优选 | 战争贩子 | US | 20.120.129.200:443
+  - Gslege优选 | us 【美国】 US | 104.17.0.5
   - S5公益优选 | 战争贩子 | US | 107.170.235.229:443
+  - US-93.179.99.130:777
   - S5公益优选 | 战争贩子 | US | 154.29.150.87:443
   - Gslege优选 | us 【美国】 US | 104.17.0.4
+  - Gslege优选 | us 【美国】 US | 104.19.0.7
   - Gslege优选 | us 【美国】 US | 104.16.0.9
   - Gslege优选 | us 【美国】 US | 104.19.0.5
-  - Gslege优选 | us 【美国】 US | 104.17.0.5
   - S5公益优选 | 战争贩子 | US | 104.194.79.122:443
-  - 天诚优选1 | 战争贩子 | US | 172.64.229.111:443
   - Gslege优选 | us 【美国】 US | 104.17.0.2
+  - US-47.77.237.245:443
   - Gslege优选 | us 【美国】 US | 103.31.4.5
   - Gslege优选 | us 【美国】 US | 104.18.0.2
+  - 天诚优选1 | 战争贩子 | US | 172.64.229.111:443
   - S5公益优选 | 战争贩子 | US | 104.207.157.238:8443
+  - 优选IP4 | US | 01
   - S5公益优选 | 战争贩子 | US | 104.236.186.204:443
-  - Gslege优选 | us 【美国】 US | 104.19.0.7
+  - Gslege优选 | us 【美国】 US | 103.31.4.7
+  - SJC-US-3
   - S5公益优选 | 战争贩子 | US | 143.198.106.68:443
   - S5公益优选 | 战争贩子 | US | 143.198.97.84:443
-  - Gslege优选 | us 【美国】 US | 103.31.4.7
-  - S5公益优选 | 战争贩子 | US | 179.255.152.1:443
-  - 优选IP4 | US | 01
-  - Gslege优选 | us 【美国】 US | 104.16.0.1
-  - S5公益优选 | 战争贩子 | US | 104.156.252.234:8443
-  - 天诚优选1 | 战争贩子 | US | 172.64.229.175:443
   - Gslege优选 | us 【美国】 US | 104.16.0.5
+  - S5公益优选 | 战争贩子 | US | 179.255.152.1:443
+  - 天诚优选1 | 战争贩子 | US | 172.64.229.175:443
+  - S5公益优选 | 战争贩子 | US | 104.156.252.234:8443
+  - Gslege优选 | us 【美国】 US | 104.16.0.1
   - S5公益优选 | 战争贩子 | US | 129.159.37.136:443
+  - Gslege优选 | us 【美国】 US | 104.17.0.9
   - S5公益优选 | 战争贩子 | US | 179.255.112.9:8443
-  - S5公益优选 | 战争贩子 | US | 157.119.103.52:443
   - S5公益优选 | 战争贩子 | US | 156.232.13.254:443
-  - S5公益优选 | 战争贩子 | US | 167.71.118.179:443
   - 天诚优选1 | 战争贩子 | US | 172.64.229.167:443
+  - S5公益优选 | 战争贩子 | US | 157.119.103.52:443
+  - S5公益优选 | 战争贩子 | US | 167.71.118.179:443
   - S5公益优选 | 战争贩子 | US | 143.110.133.216:8443
   - S5公益优选 | 战争贩子 | US | 156.225.64.67:443
-  - Gslege优选 | us 【美国】 US | 104.17.0.9
+  - Gslege优选 | us 【美国】 US | 104.19.0.8
   - S5公益优选 | 战争贩子 | US | 143.198.76.78:443
+  - Gslege优选 | us 【美国】 US | 104.16.0.6
   - S5公益优选 | 战争贩子 | US | 144.225.130.58:443
   - 天诚优选1 | 战争贩子 | US | 38.207.132.249:443
+  - 优选IP4 | US | 05
   - S5公益优选 | 战争贩子 | US | 104.248.208.69:443
   - S5公益优选 | 战争贩子 | US | 157.230.140.153:2087
   - S5公益优选 | 战争贩子 | US | 149.248.47.165:8443
-  - Gslege优选 | us 【美国】 US | 104.16.0.6
   - SJC-US-2
   - LAX-US-4
   - S5公益优选 | 战争贩子 | US | 104.248.208.69:2096
   - S5公益优选 | 战争贩子 | US | 107.170.246.220:443
-  - 优选IP4 | US | 05
   - S5公益优选 | 战争贩子 | US | 157.230.140.153:2096
   - S5公益优选 | 战争贩子 | US | 137.220.42.121:443
+  - IAD-US
   - S5公益优选 | 战争贩子 | US | 147.182.229.237:443
-  - Gslege优选 | us 【美国】 US | 104.19.0.8
+  - IAD-US-2
   - S5公益优选 | 战争贩子 | US | 162.243.148.170:443
   - S5公益优选 | 战争贩子 | US | 157.230.140.153:2053
   url: http://captive.apple.com/hotspot-detect.html
@@ -5266,36 +5794,36 @@ proxy-groups:
 - name: AI-POOL
   type: url-test
   proxies:
-  - HKG-HK-6
-  - 优选IP4 | DE | 04
-  - Gslege优选 | us 【美国】 US | 104.17.0.2
-  - 优选IP4 | DE | 03
+  - HKG-HK-25
+  - 优选IP4 | DE | 05
   - HKG-HK-23
-  - HKG-HK-13
   - HKG-HK-17
-  - HKG-HK-26
+  - HKG-HK-22
+  - HKG-HK-30
+  - Gslege优选 | us 【美国】 US | 104.19.0.7
+  - CA-172.64.153.196:443
+  - Gslege优选 | us 【美国】 US | 104.18.0.1
+  - 优选IP4 | DE | 03
   - HKG-HK-12
-  - HKG-HK-28
-  - 优选IP4 | HK | 02
-  - HKG-HK-9
-  - 优选IP4 | US | 04
-  - 天诚优选1 | 战争贩子 | US | 172.64.229.219:443
-  - 优选IP4 | DE | 01
-  - HKG-HK-8
-  - Gslege优选 | us 【美国】 US | 103.31.4.3
-  - Gslege优选 | us 【美国】 US | 104.16.0.2
-  - 天诚优选1 | 战争贩子 | US | 172.64.229.252:443
-  - 天诚优选1 | 战争贩子 | US | 172.64.229.111:443
-  - 优选IP4 | US | 05
-  - 优选IP4 | DE | 02
-  - 优选IP4 | HK | 03
-  - 优选IP4 | HK | 01
-  - 天诚优选1 | 战争贩子 | US | 172.64.229.2:443
-  - Gslege优选 | us 【美国】 US | 104.19.0.5
-  - HKG-HK-19
   - 优选IP4 | HK | 04
-  - HKG-HK-7
-  - HKG-HK-3
+  - HKG-HK-5
+  - Gslege优选 | us 【美国】 US | 104.17.0.5
+  - Gslege优选 | us 【美国】 US | 104.17.0.2
+  - 优选IP4 | US | 01
+  - 优选IP4 | US | 05
+  - CA-172.64.145.202:443
+  - HKG-HK-29
+  - HKG-HK-4
+  - 优选IP4 | HK | 05
+  - 优选IP4 | HK | 03
+  - HKG-HK-21
+  - HK-27.50.48.8:443
+  - HKG-HK-16
+  - HKG-HK-14
+  - 优选IP4 | HK | 01
+  - 优选IP4 | US | 04
+  - Gslege优选 | us 【美国】 US | 104.17.0.8
+  - Gslege优选 | us 【美国】 US | 104.17.0.9
   url: http://captive.apple.com/hotspot-detect.html
   interval: 120
 - name: FALLBACK
