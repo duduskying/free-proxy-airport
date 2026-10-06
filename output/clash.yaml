@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-10-05T21:33:35.041375+00:00'
+generated-at: '2026-10-06T02:00:57.600170+00:00'
 proxies:
 - type: vless
   name: S5公益优选 | 小日本儿 | JP | 160.16.120.16:443
