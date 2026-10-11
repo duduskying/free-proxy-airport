@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-10-11T07:37:37.590105+00:00'
+generated-at: '2026-10-11T14:33:01.153504+00:00'
 proxies:
 - type: vless
   name: SG-217.116.170.32:443
