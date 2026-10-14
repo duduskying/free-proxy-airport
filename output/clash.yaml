@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-10-13T21:42:12.876536+00:00'
+generated-at: '2026-10-14T00:48:28.783913+00:00'
 proxies:
 - type: vless
   name: 洛璃优选 | 小日本儿 JP | 45.66.129.216:443
