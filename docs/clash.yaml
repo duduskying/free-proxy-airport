@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-10-21T21:06:32.446100+00:00'
+generated-at: '2026-10-22T00:05:11.520394+00:00'
 proxies:
 - type: vless
   name: HKG-HK-10
